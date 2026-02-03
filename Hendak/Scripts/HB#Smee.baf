@@ -1,0 +1,9 @@
+IF
+	Allegiance(Myself,ENEMY)
+        Global("HB#cry","LOCALS",0)
+THEN
+	RESPONSE #100
+        DisplayStringHead(Myself,@466)
+        SetGlobal("HB#cry","LOCALS",1)
+	EscapeArea()
+END

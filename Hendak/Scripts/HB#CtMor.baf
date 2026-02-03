@@ -1,0 +1,24 @@
+// MORT DU SERPENT
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    ActionOverride("HB#LeSer",DestroyItem("HB#Imun"))
+    Kill("HB#LeSer")
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    TakeItemReplace("HB#Four2","HB#Fourr","HB#Henda")
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    SetGlobal("HB#Poursuite","GLOBAL",17)
+    EndCutSceneMode()
+END
+
+
+

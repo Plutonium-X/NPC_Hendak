@@ -1,0 +1,599 @@
+
+// DEBUT DE LA QUETE DES PIRATES
+
+// SI QUETE DES ESCLAVES TERMINEE ET HENDAK DANS LE GROUPE
+
+
+IF
+ AreaCheck("AR0405")
+ Global("HB#EnfantsLiberes","GLOBAL",3)
+ Global("HB#BenExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+SetGlobal("HB#EnfantsLiberes","GLOBAL",4)
+SetGlobal("HB#BenExists","GLOBAL",1)
+CreateCreatureObjectOffScreen("HB#Ben",Player1,0,0,0)
+PlaySong(0)
+PlaySound("HB#MusiA")
+END
+
+//DEBUT QUETE DES PIRATES
+
+IF
+ AreaCheck("AR0313")
+ Global("HB#Pirates","GLOBAL",1)
+ Global("HB#DuncaExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+SetGlobal("HB#Pirates","GLOBAL",2)
+SetGlobal("HB#DuncaExists","GLOBAL",1)
+CreateCreature("HB#Dunca",[732.344],2)
+END
+
+
+
+IF
+ AreaCheck("AR0310")
+ Global("HB#Pirates","GLOBAL",3)
+ Global("HB#LeSerExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+ SetGlobal("HB#Pirates","GLOBAL",4)
+ StartCutSceneMode()
+ StartCutScene("HB#CtSer")
+END
+
+IF
+ AreaCheck("AR0310")
+ Global("HB#Pirates","GLOBAL",100)
+ Global("HB#LeSerExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+ SetGlobal("HB#Pirates","GLOBAL",4)
+ StartCutSceneMode()
+ StartCutScene("HB#CtSer")
+END
+
+IF
+Global("HB#Poursuite","GLOBAL",3)
+THEN
+  RESPONSE #100
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+
+// LE SINGE VULGAIRE
+
+IF
+ AreaCheck("AR1602")
+ Global("HB#Poursuite","GLOBAL",4)
+ Global("HB#SmeeExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+SetGlobal("HB#Poursuite","GLOBAL",5)
+SetGlobal("HB#SmeeExists","GLOBAL",1)
+CreateCreature("HB#Smee",[568.422],6)
+END
+
+IF
+Global("HB#Poursuite","GLOBAL",5)
+See("HB#Smee")
+THEN
+  RESPONSE #100
+  PlaySong(0)
+    PlaySound("HB#MusiD")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+IF
+Global("HB#Poursuite","GLOBAL",6)
+THEN
+    RESPONSE #100
+    MoveToObject("HB#Smee")
+    ActionOverride("HB#Smee",StartDialogueNoSet(Player1))
+END
+
+
+
+
+//2è RENCONTRE AVEC LE SERPENT
+
+IF
+ AreaCheck("AR1500")
+ Global("HB#Poursuite","GLOBAL",7)
+ Global("HB#SerpeExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+SetGlobal("HB#Poursuite","GLOBAL",8)
+SetGlobal("HB#SerpeExists","GLOBAL",1)
+CreateCreature("HB#Serpe",[1666.1956],1)
+CreateCreature("HB#Smee",[1786.1819],13)
+CreateCreature("HB#LeSer",[1880.1869],6)
+
+END
+
+//MORT DU SERPENT
+
+IF
+Global("HB#Poursuite","GLOBAL",17)
+THEN
+  RESPONSE #100
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+
+
+
+// LA PASSE DU PETIT CROC
+
+IF
+ AreaCheck("AR1700")
+ Global("HB#Chasseurs","GLOBAL",1)
+ Global("HB#AniaExists","GLOBAL",0)
+ Global("HB#JDExists","GLOBAL",0)
+ Global("HB#KelshExists","GLOBAL",0)
+ Global("HB#KrodExists","GLOBAL",0)
+ Global("HB#MintaExists","GLOBAL",0)
+ Global("HB#UlzarExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+ FadeToColor([1.0],0)
+ DayNight(MIDNIGHT)
+ FadeFromColor([20.0],0)
+SetGlobal("HB#Chasseurs","GLOBAL",2)
+SetGlobal("HB#AniaExists","GLOBAL",1)     
+CreateCreature("HB#Ania",[3148.1127],0)
+SetGlobal("HB#JDExists","GLOBAL",1)
+CreateCreature("HB#JD",[3284.1083],3)
+SetGlobal("HB#KelshExists","GLOBAL",1)
+CreateCreature("HB#Kelsh",[3257.1188],5)
+SetGlobal("HB#KrodExists","GLOBAL",1)
+CreateCreature("HB#Krod",[3080.1331],8)
+SetGlobal("HB#MintaExists","GLOBAL",1)
+CreateCreature("HB#Minta",[2889.1196],11)
+SetGlobal("HB#UlzarExists","GLOBAL",1)
+CreateCreature("HB#Ulzar",[2922.1082],13)
+
+END
+
+
+IF
+ AreaCheck("AR1700")
+ Global("HB#Chasseurs","GLOBAL",2)
+ THEN
+ RESPONSE #100
+ SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+ AreaCheck("AR1700")
+ Global("HB#Chasseurs","GLOBAL",3)
+
+THEN
+ RESPONSE #100
+ SetGlobal("HB#Chasseurs","GLOBAL",4)
+ StartCutSceneMode()
+ StartCutScene("HB#CtDan")
+END
+
+IF
+ AreaCheck("AR1700")
+ Global("HB#Chasseurs","GLOBAL",6)
+
+THEN
+ RESPONSE #100
+ SetGlobal("HB#Chasseurs","GLOBAL",7)
+ StartCutSceneMode()
+ StartCutScene("HB#CtPri")
+END
+
+
+
+//COMBAT FINAL
+IF
+Global("HB#Chasseurs","GLOBAL",9)
+Dead("HB#JD")
+Dead("HB#Ania")
+Dead("HB#Kelsh")
+Dead("HB#Krod")
+Dead("HB#Minta")
+Dead("HB#Ulzar")
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiJ")
+  SetGlobal("HB#Chasseurs","GLOBAL",10)
+END
+
+
+IF
+Global("HB#Chasseurs","GLOBAL",10)
+THEN
+  RESPONSE #100
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+
+
+
+// INTERJECTIONS
+
+IF
+Global("HB#Kuldahar","GLOBAL",0)
+THEN
+  RESPONSE #100
+  SetGlobal("HB#Kuldahar","GLOBAL",1)
+END
+
+IF
+AreaCheck("AR2600")
+Global("HB#Kuldahar","GLOBAL",1)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiK")
+  Dialog(Player1)
+END
+
+// DEBUT DE LA ROMANCE
+
+
+IF
+Global("HB#HendakJoinedParty","GLOBAL",1)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("HB#HendaRomance","GLOBAL",1)
+SetGlobal("HB#HendaLoveTlk","LOCALS",1)
+SetGlobal("HB#HendakJoinedParty","GLOBAL",2)
+END
+
+
+IF
+RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+AreaType(OUTDOOR)
+Global("HB#HendaRomanceActive","GLOBAL",0)
+InParty("HB#Henda")
+!StateCheck(Player1,CD_STATE_NOTVALID)
+!StateCheck("HB#Henda",CD_STATE_NOTVALID)
+CombatCounter(0)
+Global("HB#HendaLoveTlk","LOCALS",1)
+THEN
+RESPONSE #100
+PlaySong(0)
+    PlaySound("HB#MusiB")
+SetGlobal("HB#HendaRomanceActive","GLOBAL",1)
+SetGlobal("HB#HendaLoveTlk","LOCALS",2)
+SetDialog("HB#HendR")
+Dialog(Player1)
+END
+
+//2e DIALOGUE (BAZAR DE L'AVENTURIER)
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",3)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+IF
+  AreaCheck("AR0702")
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",4)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiL")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",5)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",6)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",7)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",8)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",9)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",10)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",11)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",12)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",13)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+IF
+  AreaCheck("AR0406")
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",14)
+  Global("HB#Fete","GLOBAL",0)
+THEN
+  RESPONSE #100
+  SetGlobal("HB#Fete","GLOBAL",1)
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+
+// BAGARRE A LA COURONNE
+
+IF
+ AreaCheck("AR0406")
+ Global("HB#Bagarre","GLOBAL",1)
+ Global("HB#NormaExists","GLOBAL",0)
+ Global("HB#MotExists","GLOBAL",0)
+ Global("HB#CormaExists","GLOBAL",0)
+
+THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",2)
+ StartCutSceneMode()
+ StartCutScene("HB#CtBa1")
+END
+
+IF
+ Global("HB#Bagarre","GLOBAL",4)
+ THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",6)
+ MoveToObject("HB#Norma")
+ ActionOverride("HB#Norma",Dialog("HB#Henda"))
+END
+
+
+IF
+ Global("HB#Bagarre","GLOBAL",7)
+ THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",8)
+ StartCutSceneMode()
+ StartCutScene("HB#CtBa3")
+END
+
+IF
+ Global("HB#Bagarre","GLOBAL",10)
+ THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",11)
+ StartCutSceneMode()
+ StartCutScene("HB#CtBa4")
+END
+
+
+IF
+ Global("HB#Bagarre","GLOBAL",13)
+ THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",14)
+ StartCutSceneMode()
+ StartCutScene("HB#CtBa5")
+END
+
+
+IF
+ Global("HB#Bagarre","GLOBAL",15)
+ THEN
+ RESPONSE #100
+ SetGlobal("HB#Bagarre","GLOBAL",16)
+ Dialog(Player1)
+END
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",15)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",16)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",17)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",18)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+
+IF
+  CombatCounter(0)
+  Global("HB#HendaLoveTlk","LOCALS",19)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  InParty("HB#Henda")
+  !StateCheck(Player1,CD_STATE_NOTVALID)
+  !StateCheck("HB#Henda",CD_STATE_NOTVALID)
+  RealGlobalTimerExpired("HB#HendaRomance","GLOBAL")
+THEN
+  RESPONSE #100
+    IncrementGlobal("HB#HendaLoveTlk","LOCALS",1)
+END
+
+
+IF
+  InParty("HB#Henda")
+  CombatCounter(0)
+  Global("HB#HendaRomanceActive","GLOBAL",1)
+  Global("HB#HendaLoveTlk","LOCALS",20)
+THEN
+  RESPONSE #100
+  PlaySong(0)
+  PlaySound("HB#MusiB")
+  SetDialog("HB#HendR")
+  Dialog(Player1)
+END
+

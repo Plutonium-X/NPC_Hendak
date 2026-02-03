@@ -1,0 +1,25 @@
+// CUTSCENE BAGARRE 5
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("HB#Henda")
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    JumpToPoint([386.1378])
+    Face(0)
+    ActionOverride("HB#Mot",EscapeArea())
+    ActionOverride("HB#Corma",JumpToPoint([438.1196]))
+    ActionOverride("HB#Corma",Face(0))
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    SetGlobal("HB#Bagarre","GLOBAL",15)
+    EndCutSceneMode()
+END
+
+
+

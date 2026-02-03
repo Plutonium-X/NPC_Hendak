@@ -1,0 +1,22 @@
+//1ere rencontre avec le Serpent
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    ActionOverride("PirSea01",DestroySelf())
+    SetGlobal("HB#LeSerExists","GLOBAL",1)
+    CreateCreature("HB#LeSer",[686.575],2)
+    SetGlobal("HB#Pirates","GLOBAL",5)
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    PlaySong(0)
+    PlaySound("HB#MusiC")
+    ActionOverride("HB#LeSer",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END

@@ -1,0 +1,26 @@
+// CUTSCENE BAGARRE 3
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("HB#Henda")
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    JumpToPoint([604.1869])
+    Face(9)
+    ActionOverride("HB#Norma",JumpToPoint([708.1800]))
+    ActionOverride("HB#Norma",Face(4))
+    MoveViewObject(Myself,INSTANT)
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    ActionOverride("HB#Norma",Dialog("HB#Henda"))
+    SetGlobal("HB#Bagarre","GLOBAL",9)
+    EndCutSceneMode()
+END
+
+
+

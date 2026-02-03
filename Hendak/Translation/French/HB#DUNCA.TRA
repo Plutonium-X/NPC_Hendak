@@ -1,0 +1,54 @@
+//RENCONTRE AVEC DUNCAN
+
+@0 = ~Qu'est-c'que vous m'voulez ?~
+@1 = ~Nous avons besoin de rencontrer une personne du « milieu » si vous voyez c'que j'veux dire.~
+@2 = ~Ah ouais ? Qui ça ?~
+@3 = ~C'est un pirate, on l'appelle Le Serpent je crois.~
+@4 = ~Vous pensez que j'dévoile mes contacts à tout va? Que lui voulez-vous ?~
+@5 = ~Les affaires que j'ai à traiter avec lui sont secrètes.~
+@6 = ~Nous avons besoin de parler affaires lui et moi.~
+@7 = ~Nous avons liquidé les esclavagistes d'Athkatla pour reprendre ce commerce à notre compte. Nous avons besoin de prendre contact avec nos futurs fournisseurs.~
+
+
+//SECRET
+@8 = ~Rien ne doit rester secret aux Voleurs de l'Ombre, surtout si vous vous intéressez à leur marché. Tenez-vous le pour dit.~
+@9 = ~Nous devons négocier avec lui à propos du trafic d'esclaves.~
+@10 = ~Je regrette, je ne peux vous en parler.~
+@11 = ~Alors vous ne parlerez jamais au Serpent.~
+
+//AFFAIRES SI REPUTATION MAUVAISE
+@12 = ~Merci beaucoup. Il est vrai que le marché risque de s'effondrer depuis la mort de nos précédents collaborateurs. Vous m'avez l'air... Capable de reprendre les choses en main. Les pirates ont une planque ici, dans les docks. Il s'agit d'un souterrain secret relié à la Bonté Marine. Il se trouve juste derrière nous.~
+@13 = ~Bien sûr, le passage est bouclé. Vous aurez besoin de cette clé pour accéder à la cache. Surtout, gardez bien le secret !~
+
+//ENTREE JOURNAL
+@14 = ~La vengeance d'Hendak, Acte I : à la recherche du Serpent.
+
+Tout se passe comme prévu ! Duncan nous a révélé que Le Serpent se cache à la Bonté Marine, dans un souterrain secret. Il nous a aussi donné la clé pour y accéder.~
+
+//AFFAIRES SI REPUTATION BONNE
+@15 = ~Comment pourrais-je vous croire ? A ce que j'ai entendu sur vous, vous êtes quelqu'un de... Trop bien éduqué pour tremper dans le trafic d'esclaves. Ne m'en veuillez pas mais je préfère garder mes petits secrets.~
+
+//ECHEC
+@16 = ~Ce misérable voleur possède sans doute quelquechose qui pourrait nous aider à trouver Le Serpent. Obligeons-le à révéler ce qu'il sait.~
+@17 = ~Nous avons besoin de l'aide des Voleurs de l'Ombre pour retrouver Imoen et Irenicus. Impossible de s'en prendre à eux !~  //SI VOUS AVEZ REJOINT LES VOLEURS
+@18 = ~Alors essayons de trouver un indice dans ses affaires... Discrètement. Ben nous a dit que les pirates se cachent dans le coin, j'ai la certitude qu'ils sont près d'ici...~
+@19 = ~Nous ne pouvons pas attaquer les Voleurs de l'Ombre maintenant. Pas sans un allié puissant.~ //SI PAS DANS LA GUILDE DES VOLEURS
+@20 = ~Alors trouvons-en un, ou cherchons des indices ici discrètement. Ben nous a dit que les pirates se cachent dans le coin, j'ai la certitude qu'ils sont près d'ici...~
+
+//ENTREE JOURNAL
+@21 = ~La vengeance d'Hendak, Acte I : à la recherche du Serpent.
+
+Duncan se méfie de moi. Il n'a pas voulu me dire où trouver Le Serpent. Peut-être a-t-il en sa possession quelquechose qui pourrait me mettre sur la piste ? Si c'est le cas, je devrais essayer de m'en emparer...~
+
+
+//RETOUR VERS DUNCAN
+
+@30 = ~Vous revenez ? Pourquoi ?~
+@31 = ~Nous avons vraiment besoin de parler au Serpent, pouvons-nous en reparler ?~
+@32 = ~J'vous ai déjà répondu que non, n'insistez plus !~
+
+@40 = ~Je risque gros en dévoilant mes contacts... Ca me rapportera combien cette affaire ?~
+@41 = ~J'ose espérer que 1000 pièces d'or sauront vous convaincre.~
+@42 = ~Que diriez-vous de 500 pièces d'or ?~
+@43 = ~Vous aurez 100 pièces d'or si vous me dîtes ce que je veux savoir.~
+@44 = ~Ahah ! Revenez avec une offre plus généreuse...~ 

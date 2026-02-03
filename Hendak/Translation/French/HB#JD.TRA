@@ -1,0 +1,73 @@
+//PREMIERE SCENE CHASSEURS
+
+@0 = ~Un instant Ania, on dirait que nos invités sont arrivés.~
+@1 = ~(L'homme qui vient de parler semble assez charismatique bien qu'il ne vous inspire pas la moindre confiance) Je vous en prie chers amis, venez donc partager notre modeste repas.~
+@2 = ~Volontiers ! Que cuisinez-vous ?~
+@3 = ~C'est de la viande d'ankheg. La plupart des aventuriers ne s'intéressent qu'aux carapaces afin d'en tirer de bonnes armures. Ils n'ont même pas la moindre idée de la délicatesse de la viande qui se cache derrière.~
+@4 = ~Mmmh, manger ! Ca bon.~
+@5 = ~Oui Krod, c'est ce que je suis en train de leur dire. Mais sois poli et laisse donc un peu de nourriture pour nos nouveaux amis.~
+@6 = ~Avant d'aller plus loin, pourriez-vous nous dire qui vous êtes ?~
+@7 = ~Vous parlez comme si vous nous attendiez, mais qui êtes-vous ?~
+@8 = ~Bien sûr, bien sûr, des présentations s'imposent. Je suis l'honorable John Dike, chasseur de prime de son état.~
+@9 = ~Ania pour vous servir... et vous faire rire (La jeune femme commence à jouer des claquettes. Soudain elle s'emmêle les pieds et s'étale de tout son long sur le sol. Vous sentez qu'elle l'a fait volontairement)~
+@10 = ~Kelshoor, vous avisez pas d'me regarder d'travers ou j'vous colle un pain !~
+@11 = ~Notre ami nain est de bonne humeur aujourd'hui, vous avez de la chance...~
+@12 = ~Mintar.~
+@13 = ~Ni plus, ni moins. Il n'est pas plus causant avec nous vous savez.~
+@14 = ~Ulzar. Oh, n'ayez pas peur, tant que John ne m'autorise pas à vous couper en rondelles...~
+@15 = ~Héhé, ils ont vraiment le mot pour faire sourire ces elfes noirs. Et enfin, notre barbare national...~
+@16 = ~Miam. Crunch, slurp, cronch...~
+@17 = ~KROD, on t'cause !~
+@18 = ~Cronch, mmh... Hein ?~
+@19 = ~Pourrais-tu avoir l'élémentaire politesse de cesser de parler la bouche pleine et de donner ton nom à nos invités ?~
+@20 = ~Buurp. Heu, l'élé quoi ?~
+@21 = ~Aucune éducation ce demi-orque. On a bien tenté de lui inculquer un peu de savoir-vivre mais son cerveau (à supposer qu'il en ait un) semble définitivement hors-service. (se tournant vers Krod) Toi arrêter de bouffer et toi dire ton nom à eux !~
+@22 = ~Ah ! Heu moi c'est Krod.~
+@23 = ~Bien. Maintenant que les présentations sont faites, taillons une bavette ensemble.~
+@24 = ~Un instant. Vous êtes les Chasseurs n'est-ce pas ?~  //HENDAK
+@25 = ~Les plus grands chasseurs de prime de Féérune, c'est exact. Notre métier nous impose la discrétion mais il est difficile d'étouffer notre réputation.~
+@26 = ~Je vous connais. C'est vous qui avez attaqué le Havre du Levant il y a des années !~
+@27 = ~Le quoi ? Ah oui, l'une des Dix-Cités du Val de Bise ! Je m'en souviens, quelle expédition ! C'était un gros contrat, on nous avait demandé de capturer de nombreux barbares. Pas facile, ils sont sacrément costauds.~
+@28 = ~Lâches, vous nous avez tendu un piège ! Vous nous avez attaqués séparément pendant une chasse.~
+@29 = ~Vous... Vous étiez l'un d'eux ? Etonnant, vraiment étonnant que le destin vous ait mis à nouveau sur notre route. J'ose espérer que ce petit différend est oublié.~
+@30 = ~Oublié ? Vous m'avez arraché aux miens. Vous n'avez pas idée des souffrances que j'ai subies depuis.~
+@31 = ~Je n'en n'ai effectivement aucune idée et ça ne m'intéresse pas. Aujourd'hui, vous n'êtes plus une cible pour moi. Vous pouvez partir libre si vous le souhaitez. Mais si vous vous mettez entre notre nouvelle prime et nous vous le paierez cher !~
+@32 = ~Plus personne ne connaîtra la servitude par votre faute, j'en fais le serment !~
+@33 = ~On dirait bien que notre dîner ne se déroulera pas aussi cordialement que prévu... Vous avez là un sacré défenseur <CHARNAME>.~
+@34 = ~Mais... Comment connaissez-vous mon nom ?~  //CHARNAME
+@35 = ~Notre boulot est de tout connaître Enfant de Bhaal. Oui, nous savons cela aussi. Quand nous avons appris que notre ami Le Serpent avait été attaqué à Athkatla, notre maître, Lord Dorwin, a voulu connaître l'identité des fauteurs de trouble. Nous nous sommes donc renseignés sur vous. Le Serpent nous a brossé votre portrait et certains de ses amis sont des Voleurs de l'Ombre et savent beaucoup de choses sur vous... Quand nous avons appris pour vos origines, Lord Dorwin nous a immédiatement demandé de mettre la main sur vous. Vous aviez déjà pris la mer mais nous savions que vous reviendriez sur le continent. Il est fort aimable de votre part d'être venus de vous-mêmes, nous épargnant une longue traque.~
+@36 = ~Notre cher Mintar a invoqué des yeux de mage à des kilomètres d'ici pour nous protéger des intrus. Ils nous ont averti de votre venue. Nous avons donc eu tout le temps de vous accueillir. Puisque finalement vous ne semblez pas vouloir goûter de notre viande droguée, nous devons passer au plan B.~
+@37 = ~Votre viande droguée ? Pourquoi laissez-vous Krod en manger alors ?~
+@38 = ~Il fallait bien que l'un d'entre nous se dévoue pour que le piège soit crédible. Quand ce crétin ne mange pas il boit. Après plusieurs litres de bière du dragon, le résultat est le même.~
+@39 = ~Bon... Alors nous allons peut-être vous laisser maintenant, je suis sûr que vous trouverez d'autres primes intéressantes.~
+@40 = ~Vous voudriez déjà nous quitter ? Je crains que ce ne soit pas possible. Comme je vous l'ai dit, votre arrivée a été préparée. Vous êtes venus vous jeter directement dans notre toile magique. Mintar, achève le sort !~
+@41 = ~Il suffit ! Vous avez voulu nous piéger et vous allez le payer de vos vies. Sortez vos armes !~
+@42 = ~Non, je ne crois pas que nous allons nous battre. Comme je vous l'ai dit, votre arrivée a été préparée. Vous êtes venus vous jeter directement dans notre toile magique. Mintar, achève le sort !~
+
+
+//PRISON
+@50 = ~J'espère que vos appartements souterrains vous plaisent, nous nous sommes donné beaucoup de mal pour creuser ce complexe. Maintenant, veuillez me suivre <CHARNAME>.~
+@51 = ~Que me voulez-vous ?~
+@52 = ~Vérifier quelquechose. Nos amis Voleurs de l'Ombre ne sont peut-être pas fiables, nous devons être sûrs de savoir ce que vous êtes avant de vous amener au maître. Vous allez me suivre jusqu'à l'évaluateur.~
+
+//TORTURE
+@53 = ~Ca par exemple ! Voilà une réaction inattendue. Que vous est-il arrivé Enfant de Bhaal ?~
+@54 = ~On dirait... On dirait que la puissance de son sang est devenue incontrôlable. Comme s'il avait perdu la capacité de la diriger.~ ~On dirait... On dirait que la puissance de son sang est devenue incontrôlable. Comme si elle avait perdu la capacité de la diriger.~
+@55 = ~Il faut immédiatement informer Lord Dorwin de ce phénomène. Prend la lampe et fais au plus vite !~
+@56 = ~Oui~
+
+//EVASION
+@57 = ~Psst, <CHARNAME>. (Alors que vous vous remettez péniblement de votre "évaluation", Hendak ouvre soudain votre porte)~
+@58 = ~Hendak ? Mais... Comment es-tu sorti d'ici ?~
+@59 = ~Ils sont trop sûrs d'eux. Ils m'ont laissé ma fourrure... avec le médaillon du Serpent. J'ai juste eu à me téléporter du bon côté. Nous allons pouvoir quitter cet endroit <CHARNAME>.~
+
+//DERNIER DIALOGUE AVANT COMBAT
+@70 = ~Halte <CHARNAME>, où croyez-vous aller comme ça?~
+@71 = ~Cela ne vous concerne en rien, laissez-moi partir !~
+@72 = ~Loin de vous et de votre repaire. A présent, laissez-moi partir où il vous en cuira !~
+@60 = ~Ainsi vous voulez nous fausser compagnie ? J'ignore comment vous êtes sortis de votre cellule mais vous n'irez pas loin. Aux armes mes amis !~
+@61 = ~Je suis la Mort qui danse pour vous !~
+@62 = ~Enfin de l'action, préparez-vous à mourir !~
+@63 = ~Grrr, TAPER !~
+@64 = ~Tout-puissant Talos, que ton bras vengeur foudroie nos ennemis !~
+@65 = ~Lord Dorwin a ordonné de lui rapporter vos corps... pas forcément vivants.~

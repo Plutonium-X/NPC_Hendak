@@ -1,0 +1,44 @@
+// RENCONTRE AVEC BEN ET DEBUT DE LA QUETE DES PIRATES
+
+@0= ~(Alors que vous explorez le bateau, vous apercevez soudain un gaillard assez frêle avec un visage de fouine. Il semble un peu effrayé lorsqu'il vous voit) Mais qu'est-ce qui se passe ? Vient-on pour m'exécuter ?~
+@1= ~Qui es-tu ? Parle !~
+@2= ~Vous ? Vous êtes ce gladiateur, celui qui est sorti victorieux de chaque combat ?~
+@3= ~Je suis Hendak et je ne suis plus gladiateur. Mais tu n'as pas répondu à ma question. Et comment me connais-tu d'ailleurs ?~
+@4= ~J'ai honte de l'admettre mais... J'ai marché un moment avec les esclavagistes. Je connais pas mal de monde et j'étais chargé de répartir les esclaves sur différents secteurs.~
+@5= ~Vous ne vous souvenez pas de moi mais la première fois que je vous ai vu, vous sortiez de cette galère qui vous a mené à Athkatla. J'ai tout de suite su que vous feriez un combattant idéal et c'est sur mon conseil que vous êtes arrivé à la Couronne de Cuivre. (Hendak avance vers Ben l'air menaçant)~
+@6= ~Attendez ! Je... Je vous jure que je regrette ce qui vous est arrivé ! Ce que je veux vous dire, c'est qu'un jour, je me suis pris d'affection pour une charmante Calimshite. Le bon sens aurait voulu que je l'envoie se prostituer à la Couronne de Cuivre mais j'ai préféré la garder avec moi.~
+@7= ~La garder ? Comme un simple bibelot ? Tu me dégoûtes de plus en plus.~
+@8= ~Les autres ont très mal vu que je détourne la « marchandise » à mon profit. Ils m'ont ordonné de la restituer et de la fouetter pour prouver que je n'avais aucune attache pour elle. J'ai refusé et j'ai répondu en menaçant de dévoiler leur trafic à l'inspecteur en chef Brega. Ils m'ont alors enfermé ici en attendant de décider de mon sort. Je vous jure que c'est la vérité !~
+@9= ~Qu'en penses-tu <CHARNAME> ? Que devons-nous faire de lui ?~
+
+//INTERROGATOIRE
+@10= ~Je pense qu'il a tout à gagner à nous aider. Interrogeons-le !~     //CHARNAME
+@11= ~Très bien, comme tu veux.~
+@12= ~Nous te laissons la vie si tu nous dis qui d'autre appartient au réseau d'esclavagistes.~   //CHARNAME
+@13= ~Alors dis nous tout ce que tu sais sur les esclavagistes !~     //CHARNAME
+@14= ~Certains gardes ferment les yeux sur l'esclavage mais ce n'est pas le cas de tous. Les esclaves sont donc acheminés dans le plus grand secret.~
+@15= ~Ils sont amenés par bateau et débarqués de nuit dans les docks. Ce sont les pirates qui font le transfert du lieu de leur capture au lieu de leur vente. Leur chef est un puissant capitaine dont personne ne sait le nom, tout le monde l'appelle « Le Serpent ».~
+@16= ~Pourquoi un tel surnom ?~       //CHARNAME
+@17= ~Le Serpent fut le second du Seigneur Pirate Desharik. Un jour, il tenta une mutinerie qui échoua. Desharik l'abandonna alors dans la jungle de Chult.~
+@171= ~Le Serpent survécut de longs mois, se construisant un petit voilier et se liant avec les indigènes locaux. Ceux-ci lui offrirent un serpent apprivoisé lorsqu'il mit les voiles.~
+@172= ~Le Serpent est alors revenu dans cette contrée et a créé son propre équipage. Ses marins sont facilement identifiables car ils ont tous un serpent tatoué sur l'épaule droite. Je les rencontrais tous les 3 mois lorqu'ils débarquaient les esclaves pour la répartition.~
+@173= ~La dernière cargaison est arrivée tout récemment. Le Serpent est peut-être encore à Athkatla mais j'ignore où il se cache, je ne l'ai jamais rencontré dans son repaire.~
+@18= ~Tu mens chien ! Dis-nous où est sa cachette si tu ne veux pas que je t'arrache les membres !~
+@19= ~E... Ecoutez. Je vous ai dit toute la vérité. Sans vous, j'étais promis à un triste sort. Pourquoi couvrirais-je ces gens-là ?~
+@191= ~Je ne sais pas où se cache Le Serpent mais certaines personnes sont sans doute au courant.~
+@192= ~Et qui donc ?~   //CHARNAME
+@193= ~Qui dirige vraiment cette ville selon vous ? Et particulièrement ce type de commerce ? Les Voleurs de l'Ombre contrôlent tout, ce sont sûrement eux qui mettent les pirates et les esclavagistes d'Athkatla en contact.~
+@194= ~Il y a un type, il s'appelle Duncan je crois. C'est un Voleur de l'Ombre qui traîne souvent à la Bonté Marine et qui a souvent frayé avec les pirates. Vous devriez lui parler.~
+
+
+//PUNITION
+@20= ~Tu me poses la question ? C'est de sa faute si tu as combattu dans cette fosse jour après jour ! Et qui sait combien d'autres personnes ont souffert par sa faute ? Il mérite la mort !~
+@21= ~NON ! Par pitié ! Je... Je vous aiderai, accordez moi une chance !~
+@22= ~Il est temps d'expier tes crimes, meurs !~
+
+
+////ENTREE JOURNAL
+
+@30 = ~La vengeance d'Hendak, Acte I: à la recherche du Serpent.
+
+J'ai rencontré un nommé Ben au repaire des esclavagistes. Il dit être un ancien marchand d'esclaves repenti. Je l'ai cru et il nous a révélé que les esclaves arrivent à Athkatla par bateau sous la direction d'un pirate surnommé « Le Serpent ». Il ignore où se cachent les pirates mais nous a dit qu'un dénommé Duncan, un membre important des Voleurs de l'Ombre, détenait sûrement cette information. Il traîne souvent à la Bonté Marine semble-t-il.~

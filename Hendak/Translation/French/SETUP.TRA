@@ -1,0 +1,98 @@
+@0 = ~Hendak NPC : Version Beta
+Auteur : Totonin
+Installation ToB requise!
+Consultez le ReadMe!~
+
+@10 = ~Hendak~
+
+@11 = ~Lorsque vous l'interrogez sur son passé, Hendak vous dit être originaire de Havredest, une des Dix-Cités du Val de Bise, loin dans le Nord de Féérune. C'est dans cette contrée glacée qu'il a grandi, la rudesse du climat et les coutumes barbares faisant de lui un guerrier redoutable et résistant. Il évoque parfois son père et son frère, morts lors de sanglants combats, ainsi que sa femme et son fils qu'il n'a jamais revus depuis sa capture. Bien qu'il entre rarement dans les détails de cette dernière, vous avez tout de même appris qu'il est arrivé à Athkatla à bord d'une galère pirate et qu'il poursuivra de sa vengeance tous ceux qui ont participé de près ou de loin à son esclavage.~
+
+@20 = ~Le Serpent~
+@21 = ~Ben~
+@22 = ~Duncan~
+@23 = ~Smee~
+@24 = ~Pirate~
+@25 = ~Max~
+@26 = ~John Dike~
+@27 = ~Ania Telvara~
+@28 = ~Kelshoor~
+@29 = ~Krod~
+@30 = ~Mintar~
+@31 = ~Ulzar~
+@32 = ~Norman~
+@33 = ~Mot Tranche-membres~
+@34 = ~Cormack~
+
+@500 = ~Fourrure d'Hendak~
+
+@501 = ~Cette fourrure en peau de loup blanc a été offerte à Hendak pour ses 12 ans. Particulièrement belle, elle confère à son porteur une certaine élégance. Quelques enchantements mineurs ont permis d'augmenter considérablement la protection contre le froid. Hendak tient particulièrement à ce vêtement en souvenir de son peuple.
+
+PARAMETRES :
+
+Capacités d'équipement:
++1 au Charisme
+Résistance de 80 % contre le froid
+Poids : 3
+Type d'objet : Amulette
+Utilisable par :~
+
+@502 = ~Clé de Duncan~
+
+@5021 = ~Cette clé sert à ouvrir une zone secrète où se rencontrent pirates et esclavagistes sous le regard bienveillant des Voleurs de l'Ombre.~
+
+@503 = ~Cimeterre du pirate~
+
+@504 = ~La lame de cette arme semble miroiter, révélant un tranchant de rasoir. De grandes compétences furent nécessaires pour forger cette arme, ainsi que les bénédictions de plusieurs chamans de la jungle de Chult qui ont rendu la lame particulièrement acide. L'arme est également très légère ce qui la rend beaucoup plus maniable.
+
+PARAMETRES  :
+
+Confère une attaque supplémentaire par round
+
+Dégâts : 1D8+3+1 d'acide
+THACO : bonus de +3
+Type de dégâts : tranchant
+Poids: 3
+Type de compétence : Cimeterre/Wakizashi/Ninja-To
+Type : Arme à 1 main
+Force nécessaire : 10
+Utilisable uniquement par :~
+
+@505 = ~Cette fourrure en peau de loup blanc a été offerte à Hendak pour ses 12 ans. Particulièrement belle, elle confère à son porteur une certaine élégance. Quelques enchantements mineurs ont permis d'augmenter considérablement la protection contre le froid. Hendak tient particulièrement à ce vêtement en souvenir de son peuple. Attachée avec le médaillon du Serpent, elle permet également de se téléporter n'importe où une fois par jour.
+
+PARAMETRES :
+
+Capacités d'équipement:
+Téléportation: 1 fois par jour
++1 au Charisme
+Résistance de 80 % contre le froid
+Poids : 3
+Type d'objet : Amulette
+Utilisable par :~
+
+@506 = ~Lettre du Serpent~
+@507 = ~Cher partenaire, nous savons ce qui vous est arrivé à Athkatla. Il est facheux que des intrus s'intéressent de si près à vos affaires. Lord Dorwin veut tout savoir sur eux, aussi je compte sur vous pour nous faire parvenir au plus vite leur portrait détaillé. Concernant votre prochaine cargaison, retrouvez-nous dès votre retour de Brynnlaw dans la passe du Petit Croc, nous y serons à l'abri des regards indiscrets. Nous avons aménagé notre repaire sous les anciennes ruines. Il reste encore quelques ankhegs dans le coin alors prenez garde !
+
+Amicalement,
+John Dike~
+
+@508 = ~La Mort blanche~
+@509 = ~Forgée dans les entrailles de Profondorn par des nains et enchantée par les elfes de la Main Tranchée, cette arme est un héritage de l'époque révolue de l'alliance entre les elfes et les nains de l'épine dorsale du monde. Volée avec de nombreux artefacts par un drow, elle passa de main en main avant de finir en possession de John Dike, le chasseur de primes. Ce dernier la remit à son maître, le sorcier Dorwin, qui augmenta encore son pouvoir. Cette lame gèle littéralement sa victime jusqu'aux os, pouvant même aller jusqu'à la ralentir.
+
+PARAMETRES :
+
+TAC0 : +5
+Dégâts : 1D8+5
+Spécial :
+  25% de chances de ralentir la victime
+  +2d3 points de dégâts dus au froid
+Type de dégâts : tranchant
+Poids : 15
+Facteur de vitesse : 10
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 14
+Non utilisable par : 
+Druide
+Clerc
+Magicien
+Voleur~

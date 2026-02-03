@@ -1,0 +1,39 @@
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#CombatKe","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+
+      ReallyForceSpell(Myself,CLERIC_SHIELD_OF_THE_ARCHONS)
+      Spell(Myself,CLERIC_UNHOLY_WORD)
+      SetGlobal("HB#CombatKe","GLOBAL",1)
+END
+
+
+
+IF
+
+      Global("HB#CombatKe","GLOBAL",1)
+
+THEN
+    RESPONSE #100
+
+      Spell(Myself,CLERIC_TRUE_SIGHT)
+      SetGlobal("HB#CombatKe","GLOBAL",2)
+END
+
+
+IF
+
+      Global("HB#CombatKe","GLOBAL",2)
+
+THEN
+    RESPONSE #100
+
+      ReallyForceSpell(Myself,CLERIC_BLADE_BARRIER)
+      ReallyForceSpell(Myself,CLERIC_RIGHTEOUS_MAGIC)
+      ReallyForceSpell(Myself,CLERIC_CHAMPIONS_STRENGTH)
+      SetGlobal("HB#CombatKe","GLOBAL",3)
+END

@@ -1,0 +1,16 @@
+// CUTSCENE BAGARRE 4
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("HB#Mot")
+    Attack("HB#Norma")
+    SetGlobal("HB#Bagarre","GLOBAL",12)
+    Dialog("HB#Henda")
+    EndCutSceneMode()
+END
+
+
+

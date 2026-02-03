@@ -1,0 +1,16 @@
+
+// RECRUTEMENT HENDAK
+// LANCEMENT CUTSCENE RECRUTEMENT
+
+// SI QUETE DES ESCLAVES TERMINEE
+
+IF
+ Global("FreeSlaves","GLOBAL",1)
+ Global("HendakReleased","AR0406",4)
+ Global("HB#EnfantsLiberes","GLOBAL",0)
+THEN
+ RESPONSE #100
+ SetGlobal("HB#EnfantsLiberes","GLOBAL",1)
+ StartCutSceneMode()
+ StartCutScene("HB#CtRec")
+END

@@ -1,0 +1,46 @@
+//PREMIERE RENCONTRE AVEC LE SERPENT
+
+@0 = ~Quoi ? ! Un rustre a découvert notre cachette, ici, n'est-ce pas ? Sacre bleu ! J'ai versé une sacrée somme à ce satané Thumb pour son silence !~
+@1 = ~(Vous voyez Hendak dévisager avec insistance un chef pirate qui ne peut être autre que Le Serpent. Vêtu d'un complet bleu marine, ses manches retroussées laissent entrevoir un tatouage de Serpent sur son bras droit. Votre ami gladiateur fait quelques pas en direction du capitaine, les yeux brillants d'une rage pour le moment contenue) Toi le Serpent ! Tu te souviens de moi ?~
+@2 = ~Et pourquoi me souviendrais-je de la vermine ?~
+@3 = ~Je vais te rafraîchir la mémoire. N'aurais-tu pas fait un voyage du côté de Valbise il y a quelques années ?~
+@4 = ~Je voyage beaucoup crénom ! C'est à ça que servent les navires.~
+@5 = ~Tu m'as acheté aux mercenaires qui m'ont capturé, amené ici et revendu à la Couronne de Cuivre, comme un objet ! Oui, je me souviens de toi. Et crois-moi, tu vas payer !~
+@6 = ~Haha ! Alors c'est ça ? Un rebut qui vient soi-disant se venger ?~
+@7 = ~Tuez ce maudit espion, les gars ! Je ne dirai pas un mot de cette fuite !~
+@8 = ~(Le barbare est sur le point de plonger sa lame dans la poitrine du Serpent lorsque celui-ci porte la main à sa poitrine. Alors qu'il effleure un médaillon pendu à son cou, il disparaît soudainement. Hendak le cherche un moment du regard et le voit soudain apparaître à l'entrée du passage)~
+@9 = ~Où cours-tu comme ça lâche ?~
+@10 = ~Maudits chiens ! Vous me faîtes perdre mon temps !~
+
+
+//DEUXIEME RENCONTRE AVEC LE SERPENT, CUTSCENE
+
+@11 = ~Smee !~
+@12 = ~Ca... Capitaine ?~
+@13 = ~Bouffon ! Triple crétin à la graisse de Sahuagin ! Qu'est-ce qui t'a pris d'amener ces personnes ici ?~
+@14 = ~Mais capitaine, j'ai pensé que...~
+@15 = ~C'est MOI qui pense ici ! Un parti neutre, je vais t'en coller moi du parti neutre ! As-tu la moindre idée de qui sont ces gens ?~
+@16 = ~Ce sont des mercenaires d'Athkatla, ils ne sont pas en cheville avec Desharik.~
+@17 = ~Ils sont venus pour m'assassiner pauvre imbécile ! Rhaaa, tu vas servir de repas à mon petit Max, au moins tu serviras à quelquechose...~
+@18 = ~Gloups.~
+@19 = ~Quant à vous, vous allez regretter d'avoir posé le pied sur cette île.~
+@20 = ~Ca n'vous suffit pas d'avoir anéanti mes affaires à Athkatla ? Il faut qu'vous v'niez chercher la baston ici ?~
+@21 = ~J'ai ramé sur ton navire ordure ! Cette fois tu ne t'échapperas pas et j'aurai ta peau !~
+@22 = ~Vous allez mourir et j'reprendrai mon commerce. (Un rictus mauvais se dessine sur le visage du pirate tandis qu'il tire son cimeterre) Attaque Max !~
+
+//MORT DU SERPENT
+
+@23 = ~(Après avoir subi de sévères blessures, Le Serpent porte la main à son cou. Alors que ses doigts s'approchent d'un médaillon, vous voyez soudain Hendak lancer son arme, laquelle vient se planter dans la poitrine du capitaine pirate. Le Serpent tombe à genoux et arrache péniblement la lame.)~
+@24 = ~Id... diots ! (tousse et crache du sang) Vous... ne savez... pas... ce qui vous attend. (tousse) Lord Dorwin sera... furieux. Les Chasseurs vous... Les Chasseurs...~
+@25 = ~(Dans un dernier râle, le pirate s'effondre, mort. Hendak lui arrache alors son médaillon et le fixe à sa fourrure)~
+
+//PHRASES
+
+@30 = ~Sur ces mots vous voyez des pirates surgir de leurs cachettes...~
+@31 = ~Ahahah !~
+@32 = ~Vous allez mourir !~
+@33 = ~On va s'les farcir les gars !~
+@34 = ~Préparez-vous à crever !~
+@35 = ~Max ! NOOOON !~
+@36 = ~Olala, ça sent l'roussi...~
+@37 = ~Venez embrasser votre mort.~

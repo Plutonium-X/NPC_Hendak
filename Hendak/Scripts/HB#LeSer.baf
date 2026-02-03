@@ -1,0 +1,113 @@
+//FIN DU PREMIER COMBAT, LE SERPENT PREND LA FUITE
+
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#Pirates","GLOBAL",6)
+      
+THEN
+    RESPONSE #100
+
+      ReallyForceSpell(Myself,ASSASSIN_POISON)
+      SetGlobal("HB#Pirates","GLOBAL",7)
+END
+
+
+
+IF
+	Allegiance(Myself,ENEMY)
+	HPLT(Myself,25)
+	Global("HB#Pirates","GLOBAL",7)
+
+THEN
+	RESPONSE #100
+		SetGlobal("HB#Pirates","GLOBAL",8)
+		SetGlobal("HB#Poursuite","GLOBAL",1)
+		ForceSpell(Myself,DRYAD_TELEPORT)
+                StartCutSceneMode()
+                StartCutScene("HB#CtFui")
+		
+		
+END
+
+
+//2è Rencontre
+
+IF
+Global("HB#Poursuite","GLOBAL",8)
+See([PC])
+THEN
+  RESPONSE #100
+  SetGlobal("HB#Poursuite","GLOBAL",9)
+  ClearAllActions()
+  StartCutSceneMode()
+  StartCutScene("HB#CtPir")
+
+		
+END
+
+IF
+Dead("HB#Serpe")
+Global("HB#Serpent","GLOBAL",0)
+THEN
+    RESPONSE #100
+    DisplayStringHead(Myself,@35)
+    SetGlobal("HB#Serpent","GLOBAL",1)
+    
+END
+
+
+
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#Poursuite","GLOBAL",11)
+      
+THEN
+    RESPONSE #100
+      ReallyForceSpell(Myself,WIZARD_SUMMON_DJINNI)
+      ReallyForceSpell(Myself,ASSASSIN_POISON)
+      SetGlobal("HB#Poursuite","GLOBAL",12)
+END
+
+
+IF
+	Allegiance(Myself,ENEMY)
+	HPLT(Myself,50)
+	Global("HB#Poursuite","GLOBAL",12)
+
+THEN
+	RESPONSE #100
+		SetGlobal("HB#Poursuite","GLOBAL",13)
+		UseItem("POTN10",Myself)
+                Continue()
+                
+END
+
+
+IF
+	Allegiance(Myself,ENEMY)
+	HPLT(Myself,20)
+	Global("HB#Poursuite","GLOBAL",13)
+
+THEN
+	RESPONSE #100
+		SetGlobal("HB#Poursuite","GLOBAL",14)
+		PlaySong(0)
+                PlaySound("HB#MusiF")
+		StartDialogueNoSet(Player1)
+                
+END
+
+
+IF
+Global("HB#Poursuite","GLOBAL",15)
+See([PC])
+THEN
+  RESPONSE #100
+  SetGlobal("HB#Poursuite","GLOBAL",16)
+  ClearAllActions()
+  StartCutSceneMode()
+  StartCutScene("HB#CtMor")
+  
+END

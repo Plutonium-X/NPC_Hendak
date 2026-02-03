@@ -1,0 +1,26 @@
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#CombatK","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+
+      UseItem("POTN14",Myself)
+      ReallyForceSpell(Myself,BARBARIAN_RAGE)
+      SetGlobal("HB#CombatK","GLOBAL",1)
+END
+
+
+
+IF
+
+      Global("HB#CombatK","GLOBAL",1)
+      HPLT(Myself,30)
+
+THEN
+    RESPONSE #100
+
+      UseItem("POTN52",Myself)
+      SetGlobal("HB#CombatK","GLOBAL",2)
+END

@@ -1,0 +1,55 @@
+
+@427 = ~(Le barbare relève la manche du marin toujours accoudé au comptoir et dévoile sur l'épaule droite un magnifique tatouage représentant un serpent ondulant)~
+@428 = ~Eeeh ! Qu'est-c'qu'vous faîtes ?~
+@429 = ~Toi ! Tu travailles pour Le Serpent pas vrai ?~
+@430 = ~Chuuut ! Z'êtes cinglé de prononcer c'nom ici ? Y a plein d'gars à Desharik dans l'coin.~  //SERPENT
+@431 = ~Ils n'ont pas l'air de t'effrayer pour que tu exhibes ainsi la marque de ton chef.~
+@432 = ~C'est parce-que j'suis pas n'importe qui. Je suis là pour organiser un meeting entre les marins de Desharik et ceux d'mon capitaine. Mais en attendant qu'ça s'fasse y a des mots qu'il vaut mieux pas dire.~
+
+@433 = ~Un meeting ? Ca m'intéresse, dis-m'en plus.~
+@434 = ~Pourquoi vous v'lez savoir ça ? Ca vous r'garde pas !~
+@435 = ~Nous voudrions proposer notre aide à ton capitaine.~
+@436 = ~Vous mentez, je l'sens. Allez-vous en !~        //EXIT
+@437 = ~Ecoute, tu nous dis ou trouver ton capitaine et tu vivras un jour de plus, compris ?~
+@438 = ~Ah ouais ? Un seul geste et j'vous fous tous les pirates de l'île sur l'dos. Dégagez !~     //EXIT
+
+@439 = ~<CHARNAME>, il faut interroger ce pirate. Je lui briserais bien les membres mais dans un tel endroit ça ne nous avancera à rien. Peut-être peut-on obtenir quelquechose de lui autrement ?~
+@440 = ~La vengeance d'Hendak, Acte II : Retrouvailles.
+
+Nous avons rencontré un matelot de l'équipage du Serpent au Singe vulgaire, ce qui indique que ce dernier est présent sur l'île. Le gaillard ne semble pas très coopératif. Peut-être puis-je trouver des arguments plus convaicants ?~
+
+@441 = ~Et que dirais-tu de boire une pinte avec nous ?~ //BIERE
+@442 = ~Bonsoir mon ami, je veux juste causer autour d'une bonne bière.~
+@443 = ~Ah ouais ? Pourquoi vot' pote me tripote ?~
+@444 = ~Oh, c'est juste une marque de sympathie dans son pays. Je t'offre un verre ?~ //BIERE
+@445 = ~Nous voulions voir ton tatouage. Il est magnifique et mon ami ici présent voudrait le même.~
+@446 = ~Heu, évitez de trop l'montrer, ça f'rait mauvais genre ici. C'est un signe de reconnaissance et tout l'monde n'apprécie pas not' équipage.~
+@447 = ~Pourquoi ? Je le trouve magnifique ce serpent.~ //SERPENT
+
+@448 = ~Oh c'est pas d'refus ! (Vous commandez aussitôt une bouteille de rhum qu'un type  mal rasé et à qui il manque une dent sur deux ne tarde pas à vous apporter)~
+@449 = ~Au fait, z'êtes qui ? J'vous ai jamais vu ici avant. (Vous vous installez sur des chaises sales. Tout autour de vous ce ne sont que rires et rots bruyants. Le pirate commence à vider la bouteille, vous laissant à peine de quoi vous remplir un verre)~
+@450 = ~Nous sommes des mercenaires en provenance d'Athkatla. Nous aimerions travailler pour ton chef.~
+@451 = ~Je suis <CHARNAME> et j'aimerais parler affaires avec ton chef.~
+@452 = ~Ca tombe bien. Le Serpent et Desharik sont en mauvais termes depuis longtemps. Desharik est l'chef d'cette ville mais il n'a jamais pu s'débarrasser d'son rival. Maint'nant ils essaient d'recoller les morceaux. Une rencontre doit avoir lieu d'vant l'asile, vous pourriez venir et servir de parti neutre ?~
+@453 = ~L'asile ? Les Mages Cagoulés ne risquent-ils pas de nous chasser si on se réunit sur leur perron ?~
+@454 = ~Bof, y sont plus sortis d'leur baraque depuis un bout d'temps. Par contre il vous faudra une pierre gardienne si vous voulez approcher d'l'asile.~
+@455 = ~Et où puis-je en trouver une ?~
+@456 = ~Sais pas moi, démerdez-vous ! Quand vous l'aurez ben v'nez, on vous attendra.~
+@457 = ~La vengeance d'Hendak, Acte II : Retrouvailles.
+
+Nous avons rencontré un matelot de l'équipage du Serpent au Singe vulgaire, ce qui indique que ce dernier est présent sur l'île. Après quelques verres, le gaillard nous a révélé que le Serpent attend devant les portes de l'asile afin de rencontrer les hommes de Desharik. Nous sommes également invités si nous trouvons une pierre gardienne pour déjouer les protections dont Spellhold est entouré.~
+
+//RETOUR VERS SMEE
+
+@458 = ~Vous voulez quoi encore ?~
+@459 = ~Nous sommes partis sur de mauvaises bases, laisse-moi t'offrir un verre.~
+@460 = ~Il est indispensable que nous parlions à ton maître. Nous avons des choses urgentes à lui dire.~
+@461 = ~J'vous ai déjà dit que j'marche pas dans vos combines.~
+@462 = ~Et si on y réfléchissait autour d'un verre ?~
+@463 = ~Tu ne me laisses pas vraiment le choix... Parle ou je te tue !~
+@464 = ~Vous m'aurez pas, j'connais cette île comme ma poche ! (Le pirate s'enfuit alors tandis que les autres se lèvent soudain pour vous barrer le passage. Vous savez que vous ne le reverrez plus)~
+@465 = ~La vengeance d'Hendak, Acte II : Retrouvailles.
+
+J'ai voulu employer la manière forte pour interroger le marin mais ça n'a pas réussi. Je crois que nous avons définitivement perdu la piste du Serpent.~
+
+@466 = ~Vous ne m'aurez pas idiots !~

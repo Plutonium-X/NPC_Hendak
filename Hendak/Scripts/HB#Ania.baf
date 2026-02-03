@@ -1,0 +1,71 @@
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#CombatA","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+
+     BattleSong()
+     SetGlobal("HB#CombatA","GLOBAL",1)
+END
+
+
+IF
+     See(NearestEnemyOf(Myself))
+     HaveSpell(WIZARD_MISLEAD)
+     HaveSpell(WIZARD_MIRROR_IMAGE)
+     HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+     Global("HB#CombatM","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+
+      ReallyForceSpell(Myself,WIZARD_MISLEAD)
+      ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+      ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+      SetGlobal("HB#CombatM","GLOBAL",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHAOS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CHAOS)
+END
+
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_FIRE_SHIELD_RED)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_FIRE_SHIELD_RED)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HASTE)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_HASTE)
+END
+
+
+
+
+
+IF
+
+      Global("HB#CombatA","GLOBAL",1)
+      HPLT(Myself,20)
+
+THEN
+    RESPONSE #100
+
+      UseItem("POTN52",Myself)
+      SetGlobal("HB#CombatA","GLOBAL",2)
+END

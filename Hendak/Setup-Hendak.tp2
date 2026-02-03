@@ -1,0 +1,340 @@
+BACKUP ~Hendak/backup~
+AUTHOR ~Totonin
+        Installation ToB requise!~
+		
+ALWAYS
+	ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+		ACTION_DEFINE_ARRAY Hendak_reload BEGIN
+		~HB#Ben.tra~
+		~HB#Dunca.tra~
+		~HB#Henda.tra~
+		~HB#JD.tra~
+		~HB#LeSer.tra~
+		~HB#Norma.tra~
+		~HB#Smee.tra~
+		~Setup.tra~
+		END
+		ACTION_DEFINE_ARRAY Hendak_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Translation~
+			noconvert_array = Hendak_noconvert
+			reload_array = Hendak_reload
+		END
+	END
+END
+
+
+LANGUAGE ~Francais~
+	 ~french~
+	 ~Hendak/Translation/French/Setup.tra~
+
+BEGIN @0
+
+REQUIRE_FILE ~data/25dialog.bif~ ~Le programme ne détecte pas Throne Of Bhaal. L'expansion Throne Of Bhaal doit être installé pour permettre l'installation de Hendak le barbare.~
+REQUIRE_FILE ~data/25scripts.bif~ ~Le programme ne détecte pas Throne Of Bhaal. Throne Of Bhaal doit être installé pour permettre l'installation de Hendak le barbare.~
+
+// AJOUT DU CD_STATE_NOTVALID
+
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+
+COPY ~Hendak/Creatures/HB#Henda.cre~ ~override~
+SAY NAME1 @10
+SAY NAME2 @10
+SAY BIO @11
+
+// Patch No Musique
+
+COPY ~Hendak\Music\HB#Blank.mus~ ~music~
+COPY_EXISTING ~songlist.2da~ ~override~
+SET_2DA_ENTRY 0 2 3 ~HB#BLANK.MUS~
+
+// Répertoire Sons
+
+COPY ~Hendak/Sounds~ ~override~
+
+// Commandes décodeurs/encodeurs
+
+AT_INTERACTIVE_EXIT ~Hendak/Music/Install-mus.bat~
+AT_INTERACTIVE_UNINSTALL ~Hendak/Music/Uninstall-mus.bat~
+
+AT_INTERACTIVE_EXIT ~Hendak/Sounds/Audioin.bat~
+AT_INTERACTIVE_UNINSTALL ~Hendak/Sounds/Audiouninstall.bat~
+
+
+
+
+
+
+// COMPILATION DES FICHIERS DIALOGUES D'HENDAK (SOA)
+
+// Avant recrutement
+COMPILE ~Hendak/Dialogues/HB#Henda.d~
+    USING ~Hendak/Translation/French/HB#Henda.tra~
+
+// Après recrutement
+COMPILE ~Hendak/Dialogues/HB#HendJ.d~
+    USING ~Hendak/Translation/French/HB#Henda.tra~
+// Banters
+COMPILE ~Hendak/Dialogues/HB#HendB.d~
+    USING ~Hendak/Translation/French/HB#Henda.tra~
+// Dialogues avec Charname
+COMPILE ~Hendak/Dialogues/HB#HendR.d~
+    USING ~Hendak/Translation/French/HB#Henda.tra~
+// Scripts
+COMPILE ~Hendak/Scripts/HB#Henda.baf~
+    USING ~Hendak/Translations/French/HB#Henda.tra~
+
+
+
+
+    
+    
+
+
+// COMPILATION DES CREATURES
+// Ben
+
+COPY ~HENDAK/Creatures/HB#Ben.cre~ ~override~
+SAY NAME1 @21
+SAY NAME2 @21
+COMPILE ~Hendak/Dialogues/HB#Ben.d~ ~override~
+    USING ~Hendak/Translation/French/HB#Ben.tra~
+COMPILE ~Hendak/Scripts/HB#Ben.baf~
+
+// Duncan
+
+COPY ~HENDAK/Creatures/HB#Dunca.cre~ ~override~
+SAY NAME1 @22
+SAY NAME2 @22
+COMPILE ~Hendak/Dialogues/HB#Dunca.d~ ~override~
+    USING ~Hendak/Translation/French/HB#Dunca.tra~
+COMPILE ~Hendak/Scripts/HB#Dunca.baf~
+
+// Le Serpent
+
+COPY ~HENDAK/Creatures/HB#LeSer.cre~ ~override~
+SAY NAME1 @20
+SAY NAME2 @20
+COMPILE ~Hendak/Dialogues/HB#LeSer.d~ ~override~
+    USING ~Hendak/Translation/French/HB#LeSer.tra~
+COMPILE ~Hendak/Scripts/HB#LeSer.baf~
+    USING ~Hendak/Translation/French/HB#LeSer.tra~
+
+// Smee
+
+COPY ~HENDAK/Creatures/HB#Smee.cre~ ~override~
+SAY NAME1 @23
+SAY NAME2 @23
+COMPILE ~Hendak/Dialogues/HB#Smee.d~ ~override~
+    USING ~Hendak/Translation/French/HB#Smee.tra~
+COMPILE ~Hendak/Scripts/HB#Smee.baf~
+        USING ~Hendak/Translation/French/HB#Smee.tra~
+
+//Pirates
+
+COPY ~Hendak/Creatures/HB#Pir01.cre~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~Hendak/Creatures/HB#Pir02.cre~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~Hendak/Creatures/HB#Pir03.cre~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~Hendak/Creatures/HB#Pir04.cre~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~Hendak/Creatures/HB#PIR05.cre~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+COMPILE ~Hendak/Scripts/HB#PIR05.baf~
+
+COPY ~Hendak/Creatures/HB#Serpe.cre~ ~override~
+SAY NAME1 @25
+SAY NAME2 @25
+
+
+//Chasseurs
+
+
+COPY ~Hendak/Creatures/HB#Ania.cre~ ~override~
+SAY NAME1 @27
+SAY NAME2 @27
+COMPILE ~Hendak/Dialogues/HB#Ania.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Ania.tra~
+COMPILE ~Hendak/Scripts/HB#Ania.baf~
+
+
+COPY ~Hendak/Creatures/HB#Kelsh.cre~ ~override~
+SAY NAME1 @28
+SAY NAME2 @28
+COMPILE ~Hendak/Dialogues/HB#Kelsh.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Kelsh.tra~
+COMPILE ~Hendak/Scripts/HB#Kelsh.baf~
+
+
+COPY ~Hendak/Creatures/HB#Krod.cre~ ~override~
+SAY NAME1 @29
+SAY NAME2 @29
+COMPILE ~Hendak/Dialogues/HB#Krod.d~ ~override~
+    USING ~Hendak/Translation/French/HB#Krod.tra~
+COMPILE ~Hendak/Scripts/HB#Krod.baf~
+
+
+COPY ~Hendak/Creatures/HB#Minta.cre~ ~override~
+SAY NAME1 @30
+SAY NAME2 @30
+COMPILE ~Hendak/Dialogues/HB#Minta.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Minta.tra~
+COMPILE ~Hendak/Scripts/HB#Minta.baf~
+
+
+COPY ~Hendak/Creatures/HB#Ulzar.cre~ ~override~
+SAY NAME1 @31
+SAY NAME2 @31
+COMPILE ~Hendak/Dialogues/HB#Ulzar.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Ulzar.tra~
+COMPILE ~Hendak/Scripts/HB#Ulzar.baf~
+
+
+COPY ~Hendak/Creatures/HB#JD.cre~ ~override~
+SAY NAME1 @26
+SAY NAME2 @26
+COMPILE ~Hendak/Dialogues/HB#JD.d~ ~override~
+    USING ~Hendak/Translation/French/HB#JD.tra~
+COMPILE ~Hendak/Scripts/HB#JD.baf~
+
+
+// NORMAN CORMACK ET MOT
+
+COPY ~Hendak/Creatures/HB#Corma.cre~ ~override~
+SAY NAME1 @34
+SAY NAME2 @34
+COMPILE ~Hendak/Dialogues/HB#Corma.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Henda.tra~
+
+COPY ~Hendak/Creatures/HB#Mot.cre~ ~override~
+SAY NAME1 @33
+SAY NAME2 @33
+COMPILE ~Hendak/Dialogues/HB#Mot.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Henda.tra~
+
+COPY ~Hendak/Creatures/HB#Norma.cre~ ~override~
+SAY NAME1 @32
+SAY NAME2 @32
+COMPILE ~Hendak/Dialogues/HB#Norma.d~ ~override~
+        USING ~Hendak/Translation/French/HB#Norma.tra~
+
+
+
+
+        
+
+
+
+
+// COMPILATION ITEMS POUR SOA
+
+// Items divers
+
+COPY ~Hendak/Items/HB#Fourr.itm~ ~override~ SAY NAME1 @500 SAY NAME2 @500 SAY DESC @501
+COPY ~Hendak/Items/HB#scimi.itm~ ~override~ SAY NAME1 @503 SAY NAME2 @503 SAY DESC @504
+COPY ~Hendak/Items/HB#key01.itm~ ~override~ SAY NAME1 @502 SAY NAME2 @502 SAY DESC @5021
+COPY ~Hendak/Items/HB#Imun.itm~ ~override~
+COPY ~Hendak/Items/HB#Four2.itm~ ~override~ SAY NAME1 @500 SAY NAME2 @500 SAY DESC @505
+COPY ~Hendak/Items/HB#Note.itm~ ~override~ SAY NAME1 @506 SAY NAME2 @506 SAY DESC @507
+COPY ~Hendak/Items/HB#epee.itm~ ~override~ SAY NAME1 @508 SAY NAME2 @508 SAY DESC @509
+
+
+
+
+
+
+// SCRIPT DE MAPS POUR SOA
+
+EXTEND_BOTTOM ~AR0406.bcs~ ~Hendak/Scripts/HB#Ar406.baf~
+
+
+//MAPS POUR SOA
+COPY ~Hendak/Areas/HB#ARP.are~ ~override~
+COPY ~Hendak/Areas/HB#ART.are~ ~override~
+
+
+// CUTSCENES POUR SOA
+
+COMPILE ~Hendak/Scripts/HB#CtRec.baf~
+COMPILE ~Hendak/Scripts/HB#CtSer.baf~
+COMPILE ~Hendak/Scripts/HB#CtFui.baf~
+COMPILE ~Hendak/Scripts/HB#CtPir.baf~
+        USING ~Hendak/Translation/French/HB#LeSer.tra~
+COMPILE ~Hendak/Scripts/HB#CtMor.baf~
+COMPILE ~Hendak/Scripts/HB#CtDan.baf~
+COMPILE ~Hendak/Scripts/HB#CtPri.baf~
+        USING ~Hendak/Translation/French/HB#JD.tra~
+COMPILE ~Hendak/Scripts/HB#CtBa1.baf~
+COMPILE ~Hendak/Scripts/HB#CtBa3.baf~
+COMPILE ~Hendak/Scripts/HB#CtBa4.baf~
+COMPILE ~Hendak/Scripts/HB#CtBa5.baf~
+
+
+//PATCHS DE ZONE
+
+COPY_EXISTING ~AR0313.are~ ~override/AR0313.are~
+
+WRITE_SHORT 0x10e8 100 // Porte incrochetable
+WRITE_ASCII 0x10d4 ~HB#Key01~ // Cle pour ouvrir la porte
+
+// PATCHS DE CREATURES
+
+COPY_EXISTING ~PIRSEA01.cre~ ~override/PIRSEA01.cre~
+
+WRITE_SHORT 0x2cc 0
+
+
+
+// PORTRAITS
+
+ACTION_IF GAME_IS ~BG2 TOB~ THEN BEGIN
+	COPY ~Hendak/Pictures~ ~override~
+END
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+	COPY ~Hendak/PicturesEE~ ~override~
+	ADD_JOURNAL @14 @21 @900000 @418 @438 @453 @457 @465 @440 USING ~Hendak\Translation\French\HB#HENDA.TRA~
+END
+
+// BAMS
+
+COPY ~Hendak/Bams~ ~override~
+
+// 2DA POUR DIALOGUES
+// LAISSER A LA FIN DU FICHIER
+
+// Pour SoA
+
+APPEND ~pdialog.2da~
+~HB#Henda      HB#HendP           HB#HendJ          HB#HendD~
+UNLESS ~HB#Henda~
+UNLESS ~25POST~
+
+// Pour SoA + ToB
+
+APPEND ~pdialog.2da~
+~HB#Henda      HB#HendP           HB#HendJ          HB#HendD       HB#He25P           HB#He25J              HB#He25D              HB#HeD25~
+UNLESS ~HB#Henda~
+IF ~25POST~
+
+// Banters SoA + ToB
+
+APPEND ~interdia.2da~
+  ~HB#Henda      HB#HendB       HB#HeB25~
+UNLESS ~HB#Henda~

@@ -1,0 +1,26 @@
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#CombatJ","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+    PlaySong(0)
+    PlaySound("HB#MusiI")
+     ReallyForceSpell(Myself,WIZARD_INVISIBILITY)
+     SetGlobal("HB#CombatJ","GLOBAL",1)
+END
+
+
+
+IF
+
+      Global("HB#CombatJ","GLOBAL",1)
+      HPLT(Myself,20)
+
+THEN
+    RESPONSE #100
+
+      UseItem("POTN52",Myself)
+      SetGlobal("HB#CombatJ","GLOBAL",2)
+END

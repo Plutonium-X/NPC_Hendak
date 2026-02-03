@@ -1,0 +1,33 @@
+// CUTSCENE BAGARRE 1
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    FadeToColor([20.0],0)
+    Wait(1)
+    SetGlobal("HB#NormaExists","GLOBAL",1)
+    CreateCreature("HB#Norma",[539.1562],10)
+    SetGlobal("HB#MotExists","GLOBAL",1)
+    CreateCreature("HB#Mot",[709.1720],2)
+    SetGlobal("HB#CormaExists","GLOBAL",1)
+    CreateCreature("HB#Corma",[495.1779],11)
+    JumpToPoint([589.1275])
+    Face(6)
+    ActionOverride("HB#Henda",JumpToPoint([589.1275]))
+    ActionOverride("HB#Henda",Face(0))
+    FaceObject("HB#Henda")
+    MoveViewObject(Myself,INSTANT)
+    SetGlobal("HB#Bagarre","GLOBAL",3)
+    Wait(1)
+    FadeFromColor([20.0],0)
+    Wait(1)
+    ActionOverride("HB#Norma",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END
+
+
+

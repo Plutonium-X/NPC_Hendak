@@ -1,0 +1,18 @@
+//BAGARRE A LA COURONNE
+
+@1 = ~Chers amis, votre attention s'il vous plaît ! Ce soir pour votre plus grand plaisir, nous avons l'honneur de voir combattre le jeune Cormak, plusieurs fois vainqueur, face au terrible, au vicieux, au très subtil Mot Tranche-membres.~
+@2 = ~Comment ? Il y a encore des combats de gladiateurs ici ?~
+@3 = ~Qui vient de poser une question aussi saugrenue ? Il y a toujours eu des combats de gladiateurs ici.~
+
+@4 = ~Que... Mot ! Tue-le !~
+@5 = ~Moi taper toi !~
+@6 = ~Mais ! Pas moi espèce d'abruti sans cervelle ! Lui, tue-le lui !~
+@7 = ~MOI PAS ABRUTI ! TOI MOURIR !~
+
+@10 = ~(Le barbare se dirige vers l'homme qui vient de parler. Grand, plutôt maigrichon et l'oeil sournois, il toise votre ami d'un air goguenard jusqu'à ce qu'Hendak le saisisse par le col) Les combats auraient du cesser la dernière fois. Cormak avait pris la direction des affaires alors pourquoi est-il dans l'arène ? POURQUOI ?~
+@11 = ~L... Les gars... Foutez-moi ça dehors !~
+@12 = ~(Hendak lâche l'escroc et se tourne vers la foule. Quelques brutes se dirigent vers lui. Vous vous rendez compte qu'il n'y a pas de vrais gardes, seuls quelques habitués plutôt costauds semblent être devenus le nouveau service d'ordre) Regardez-moi ! Je suis Hendak ! Si vous venez à la Couronne depuis longtemps, vous savez qui je suis. Vous savez aussi ce qui s'est passé ici la dernière fois. Voulez-vous baigner dans votre sang comme Lehtinan ?~
+@13 = ~(Les brutes commencent à reculer) Mais qu'est-ce que vous faîtes idiots ?~
+@14 = ~Toi, tu vas venir avec moi ! (Hendak empoigne le voleur et le jette au milieu de l'arène) Maintenant, on va voir si trouves ça agréable de défier la mort.~
+
+@20 = ~Mais qu'est-ce que...~

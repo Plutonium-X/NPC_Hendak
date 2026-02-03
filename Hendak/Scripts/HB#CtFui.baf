@@ -1,0 +1,15 @@
+////FUITE DU SERPENT
+
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    Wait(1)
+    CreateCreatureDoor("HB#LeSer",[295.824],7)
+    SetGlobal("HB#Poursuite","GLOBAL",2)
+    Wait(1)
+    ActionOverride("HB#LeSer",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END

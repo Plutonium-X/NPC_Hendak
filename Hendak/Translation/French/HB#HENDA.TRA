@@ -1,0 +1,1115 @@
+@50000 = ~Hendak~
+
+
+////QUETE DES ESCLAVES TERMINEE////
+
+@0 = ~(Vous voyez le barbare revenir de la réserve de Lehtinan, une fourrure autour du cou qui visiblement lui appartient depuis longtemps) Je voudrais encore vous parler si vous me le permettez.~
+@1 = ~J'ai libéré tous les gladiateurs. Certains d'entre eux vont même s'établir ici pour garder un oeil sur cet endroit. Quant à moi, j'ai bien réfléchi. J'ai été enfermé bien longtemps et je ne souhaite rien de plus que de découvrir le monde. Vous m'avez tout l'air de beaucoup voyager. Accepteriez-vous que je me joigne à vous ? Comme vous l'avez vu, je sais me battre et prêter ma lame à mon sauveur serait un honneur ! Si vous refusez, sachez que je compte retourner dans mon pays. Nous ne nous reverrons plus.~
+@2 = ~Je serais ravi de vous savoir à mes côtés Hendak.~
+@201 = ~Désolé, je vous ai peut-être libéré mais je ne souhaite pas voyager avec vous.~
+@202 = ~Dans ce cas je vais quitter cet endroit au plus vite. Je dois regagner mon pays. Merci encore mon ami !~
+@3 = ~Alors nous voyagerons et lutterons côte à côte aussi longtemps qu'il le faudra.~
+@301 = ~Je dois tout de même vous prévenir que mon but principal est de secourir une amie d'enfance qui a été enlevée par les Mages Cagoulés.~
+@302 = ~Il faut que vous sachiez que je traque un puissant mage nommé Irenicus. Il est entre les mains des Mages Cagoulés et le retrouver sera sûrement dangereux.~
+@303 = ~Allons-y !~
+@4 = ~Je ne sais pas plus de choses sur les Mages Cagoulés que la plupart des habitants d'Athkatla. Ils sont particulièrement discrets et sont les seuls autorisés à pratiquer la magie.~
+@401 = ~Je pense que vous pouvez encore m'aider. Le trafic d'esclaves risque de continuer dans l'ombre si on ne fait rien.~
+@402 = ~Le réseau est forcément plus important, les esclavagistes doivent bien être approvisionnés par quelqu'un. Nous devrions chercher des indices dans leur repaire afin de savoir qui les fournit. Retournons au bateau, nous trouverons sûrement quelquechose.~
+
+// DIALOGUE DE KICKOUT
+
+@403 = ~As-tu encore besoin de mes bras <CHARNAME> ?~
+@404 = ~Nous avons bien combattu mais je n'ai plus besoin de toi.~
+@405 = ~Je suis un homme libre et je dois regagner mon pays. Si je pars, nous ne nous reverrons plus.~
+@406 = ~Très bien. Merci pour tout ce que tu as fait pour moi ! Je parlerai de toi en bien. Adieu <CHARNAME> !~
+@407 = ~Tout compte fait, un combattant comme toi est toujours utile. Reste avec nous !~
+@408 = ~Il est temps que tu suives ta propre route Hendak. Profite de ta liberté !~
+
+
+//FUITE DU SERPENT
+
+@410 = ~(Hendak se précipite vers l'escalier mais il est déjà trop tard. Le Serpent s'est comme évanoui. Votre ami revient vers vous, la colère bouillonnant toujours en lui) Grrr ! Je lui aurais bien fait sa fête ! <CHARNAME>, ce pirate est celui qui m'a transporté ici, je lui dois bien des malheurs. Il reste une dette. TU M'ENTENDS LE SERPENT ? TU DOIS REGLER TA DETTE !~
+@411 = ~On peut dire que tu lui as fait peur à ce bandit.~
+@412 = ~Ca ne me suffit pas ! J'aurai sa tête plantée sur ma lame, même si je dois pacourir les océans pour le retrouver !~
+@413 = ~Nous le retrouverons Hendak. Je ne sais ni quand, ni comment, mais j'ai la certitude que ce n'est pas fini.~
+@414 = ~Oui, je l'espère. Ca fait bien longtemps que je recherche ceux qui m'ont fait du tort. Ma vengeance a déjà puni nombre d'entre eux et ce n'est pas fini !~
+@415 = ~Calme-toi Hendak ! Nous ne pouvons rien faire pour le moment.~
+@416 = ~Me calmer ? Quand cette crapule qui m'a traité pire qu'une bête s'est enfuie ? Et pourquoi devrais-je me calmer <CHARNAME> ?~
+@417 = ~Parce-que où qu'il soit, ta colère ne peut l'atteindre pour l'instant. Garde la pour quand nous le rencontrerons à nouveau. Je ne sais pas pourquoi, mais je pense que nous le reverrons.~
+@418 = ~La vengeance d'Hendak, Acte I  : à la recherche du Serpent.
+
+Nous avons enfin mis la main sur celui que nous cherchions. Le Serpent et quelques uns de ses hommes étaient cachés à la Bonté Marine. Malheureusement, ce gredin a réussi à s'enfuir avant qu'on n'ait pu en finir avec lui. Mais qui sait, peut-être le reverrons-nous ?~
+
+//LE SINGE VULGAIRE
+
+@420 = ~(Alors que vous pénétrez dans la taverne du singe vulgaire, vous jetez rapidement un regard alentour. C'est un rade bruyant et malodorant où se cotoient nombre de pirates. A peine franchissez-vous le seuil que vous êtes aussitôt bousculé par un petit homme fuyant un comparse qu'il a visiblement volé. Son poursuivant lui jette aussitôt une bouteille que vous évitez à grand peine. Tandis que vous jouez des coudes pour accéder au comptoir, Hendak vous arrête soudain.) <CHARNAME> regarde !~
+@421 = ~Que suis-je sensé voir ?~
+@422 = ~Cet homme, au comptoir. (Il vous désigne un marin assez grand et gros, la chevelure grisonnante et le nez d'un rouge indiquant qu'il n'en est pas à son premier verre)~
+@423 = ~Il n'y a rien de surprenant à rencontrer un ivrogne dans une taverne.~
+@424 = ~Regarde son bras.~
+@425 = ~(Vous ne distinguez pas grand chose, juste une simple marque noire sur son bras qui semble disparaître dans sa manche) Désolé, je ne vois là rien d'exceptionnel. Les pirates portent souvent des tatouages.~
+@426 = ~Tu ne comprends pas, celui-ci m'a l'air familier. Observe bien.~
+
+//LA MORT DU SERPENT
+
+@427 = ~Voilà. Ce vil pirate a eu ce qu'il méritait. (observant le médaillon) C'est sans doute grâce à ça qu'il a pu s'échapper la dernière fois. Je le garde, personne n'échappera plus à la colère d'Hendak !~
+@428 = ~Au fait, où est passé ce Smee ?~
+@429 = ~Aucune importance. Ma vengeance visait surtout le Serpent. Que son second aille au diable !~
+@430 = ~Sais-tu ce que le Serpent voulait dire en parlant des Chasseurs ?~
+@431 = ~Cela me rappelle un vieux souvenir. C'est le groupe de chasseurs de prime qui m'a capturé autrefois. Il sont particulièrement puissants et rusés. J'ai aussi un compte à régler avec eux !~
+@432 = ~Pas question ! J'ai déjà eu mon lot de combats grâce à toi, je ne tiens pas à provoquer un nouveau groupe encore plus dangereux.~
+@433 = ~C'est toi le chef <CHARNAME>. Si tu changes d'avis, je serais ravi de leur faire tâter de mes lames !~
+@434 = ~Quand nous en aurons fini ici, nous pourrons toujours essayer de les retrouver. Mais encore faut-il savoir où les trouver.~
+@435 = ~Nous les trouverons, même si je dois traverser tout Féérune.~
+@436 = ~Maintenant que tu t'es vengé, peut-on continuer ?~
+@437 = ~Je te dois beaucoup <CHARNAME>, je ne retarderai pas tes projets un instant de plus. Allons-y !~
+@438 = ~La vengeance d'Hendak, Acte II : Retrouvailles.
+
+Nous avons retrouvé Le Serpent devant l'asile comme prévu. Nous l'avons écrasé ainsi que son équipage et Hendak est soulagé d'être enfin vengé. Nous pouvons désormais nous concentrer sur Irenicus...~
+
+
+//ARRIVEE A LA PASSE DU PETIT CROC
+
+@439 = ~(Alors que vous pénétrez dans la Passe du petit Croc, une étrange musique parvient à vos oreilles accompagnée de bruits de claquettes.) <CHARNAME>, tu entends ça ?~
+@440 = ~Evidemment, je ne suis pas sourd !~~Evidemment, je ne suis pas sourde !~
+@441 = ~Et si on allait voir ?~
+
+//APRES LE COMBAT FINAL
+
+@450 = ~Nous... Nous avons réussi <CHARNAME>. Nous avons débarrassé Féérune de la pire bande de crapules qui soit. Une fois encore je te remercie. Bien sûr, je sais qu'il y aura toujours des esclavagistes de par le monde, mais tant qu'il existera des héros de notre trempe pour leur faire face, l'espoir vivra dans le coeur des esclaves.~
+@451 = ~Ce qui m'inquiète, c'est que leur maître s'intéresse à moi à cause de mon héritage. J'ai déjà perdu mon âme par la faute d'Irenicus, je n'ai pas vraiment besoin qu'un autre puissant seigneur ne cherche à s'emparer de moi.~
+@452 = ~Nous l'avons privé de ses meilleurs hommes. Qui sait, peut-être le trouverons-nous un jour... Où c'est lui qui nous trouvera. Mais en attendant, nous avons une âme à récupérer.~
+@453 = ~La vengeance d'Hendak, Acte III : Les Chasseurs de prime.
+
+En explorant la Passe du petit Croc, nous sommes tombés sur les Chasseurs de prime qui ont capturé Hendak dans sa jeunesse et l'ont vendu au Serpent. Ils nous ont tendu un piège dans lequel nous nous sommes jetés. Nous avons finalement pu nous en tirer et avons débarrassé le monde de leur présence. Mais je reste troublé. Leur maître Lord Dorwin connaît mon héritage et cela l'intéresse. J'espère pouvoir éviter les ennuis à présent que ses sbires sont morts mais l'avenir reste incertain.~
+
+
+
+////INTERJECTIONS
+
+//SOUVENIR KULDAHAR
+@600000 = ~Ces... Ces arbres gigantesques. Ils me rappellent le vieux Chêne de Kuldahar.~
+@600001 = ~Kuldahar ?~
+@600002 = ~C'est une communauté de druides dans le Val de Bise, assez proche du Havre du Levant. Mon père m'y a emmené quand j'avais 6 ans et je crois que je n'ai jamais revu nulle part dans le monde de plus bel endroit.~
+@600003 = ~Le Grand Chêne de Kuldahar existe depuis des temps lointains et sa taille est plus importante encore que celle de ces arbres. C'est une bénédiction pour nous car il diffuse de la chaleur ce qui permet aux colons vivant là-bas de cultiver la terre malgré l'aridité du Val de Bise.~
+@600004 = ~La communauté est régie par un archidruide qui a pour fonction de protéger l'arbre car sans lui, le froid de cette région reprendrait le dessus et chasserait toute vie.~
+@600005 = ~J'ignorais qu'il existait un tel lieu à Féérune.~
+@600006 = ~Quel émerveillement la première fois que je me suis promené entre les racines du grand arbre. J'aimerais pouvoir te le montrer un jour...~
+
+//CELVAN
+@600007 = ~"Un homme fort venu du Nord,
+
+Vit sa liberté arrachée,
+
+Chaque jour devenant plus fort,
+
+Face aux épreuves qui lui étaient imposées,
+
+Aujourd'hui il marche à travers les monde,
+
+Et réécrit sa vie à chaque nouvelle seconde."~
+@600008 = ~Bien dit petit homme !~
+
+//AMALAS
+@600009 = ~Mais... Ce s'rait pas le gladiateur qui a bousillé des ours dans l'arène l'autre jour ?~
+@600010 = ~C'est moi. Et si vous cherchez les ennuis...~
+@600011 = ~Hein ? Non, non, on rigole juste. Pas vrai les gars ?~
+@600012 = ~Ne provoquez pas ma colère ou celle de mes amis, est-ce clair ?~
+@600013 = ~Ouais, très clair. Allez on s'casse, y a d'autres tavernes qui nous attendent.~
+
+// ARAN LINVAIL - GUILDE DES VOLEURS DE L'OMBRE
+
+@600014 = ~Voici donc le fameux Aran Linvail, le vrai maître de cette ville.~
+@600015 = ~Tiens, un esclave en fuite... Mes hommes traînent souvent à la Couronne, je connais chacun de tes exploits gladiateur.~
+@600016 = ~Je suis un homme libre à présent. Libre de combattre les esclavagistes dans ton genre.~
+@600017 = ~Quelle fierté ! Mais ne te trompe pas d'ennemi barbare, j'ai beaucoup à offrir à ton compagnon. Peut-être vaut-il mieux qu'il mène la discussion ?~~Quelle fierté ! Mais ne te trompe pas d'ennemi barbare, j'ai beaucoup à offrir à ta compagne. Peut-être vaut-il mieux qu'elle mène la discussion ?~
+@600018 = ~Soit. A toi de voir <CHARNAME>.~
+@600019 = ~Bonjour <CHARNAME>, si on parlait affaires ?~
+
+// DOMPTEUR - COURONNE DE CUIVRE
+@600020 = ~J'ai affronté nombre de créatures enfermées ici. Prends garde !~
+
+// OEIL AVEUGLE
+@600021 = ~Voila le monstre responsable de tant de souffrances. Notre tâche est simple : abattons-le !~
+
+// GARCON CIRQUE
+@600022 = ~Pauvre garçon, je sais à quel point il est difficile d'être séparé de sa famille.~
+
+// CALAHAN
+@600023 = ~Un marin hein ? Peut-être pourras-tu me ramener jusqu'au Valbise lorsque j'aurais fini d'aider <CHARNAME>.~
+
+// ROMEO & JULIETTE
+@600024 = ~La vie est ainsi, on ne fai pas toujours ce qu'on veut.~
+
+// ABOLETH
+@600025 = ~Qu'est-ce donc que cette créature ? Que... Que fait-elle dans ma tête ?~
+
+// MARCHAND D'ESCLAVES
+@600026 = ~L'esclavage est donc un fléau présent partout ? Il faut absolument libérer ces pauvres gens !~
+
+// DELON
+@600027 = ~Après avoir été enfermé si longtemps, profiter du grand air me fera du bien.~
+
+
+// FiRKRAAG - DRAGON
+
+@600029 = ~Un dragon... De toutes les créatures que j'ai affrontées, c'est la seule que je n'ai pas à mon tableau de chasse. Il faut bien commencer un jour mais je comprendrais tout à fait si tu veux revenir plus tard <CHARNAME>. Cette bestiole n'est pas à la portée du premier venu...~
+
+// ONCLE GERHAR (FAMILLE JANSEN.)
+@600030 = ~Mais qu'est-ce que c'est que ce bonhomme ?~
+
+// PHILOSOPHE PACIFISTE
+@600031 = ~Quelle naïveté. Ces idées sont sympathiques mais pas du tout compatibles avec le monde dans lequel nous vivons.~
+
+// CLAIRE
+@600032 = ~Laisse ta douleur où elle se trouve : dans ton passé. Il faut reconstruire ta vie maintenant, tu n'es pas la première à passer par là.~
+
+// SARLES
+@600033 = ~Au Valbise, mon père m'a appris à me battre sur des mannequins d'entraînement mais ce type ferait aussi bien l'affaire.~
+
+// AVENTURIERS DES VAUX
+@600034 = ~Ces fiers à bras mériteraient une bonne correction, mon épée me démange <CHARNAME>.~
+
+// TANNEUR
+@600035 = ~Son visage est humain mais ce n'est qu'un monstre sanguinaire. Tuons-le vite et tuons-le bien.~
+
+// AVENTURIERS EGOUTS
+@600036 = ~Vous faîtes une grave erreur. Partez maintenant avant que la colère ne m'envahisse ou c'en est fait de vous !~
+@600037 = ~Un petit combat dans la fange, rien de tel pour garder la forme. Qu'en penses-tu <CHARNAME> ?~
+
+// PRETRE DE HELM
+@600038 = ~Si des innocents sont assez stupides pour se jeter dans la gueule du loup, c'est leur problème, mais il pourrait être dangereux de laisser prospérer ce culte souterrain.~
+
+// OGRE - ILLITHIDS
+@600039 = ~Et me voilà de nouveau enfermé et destiné à combattre pour le plaisir de créatures sadiques. Ils vont le payer <CHARNAME>, je te jure qu'ils vont le payer, je détruirai leur cité à coups d'épée dès que nous sortirons d'ici !~
+
+// ELHAN
+@600040 = ~Je pense que nous avons tout à gagner à les aider. En retour, ils nous aideront sûrement à retrouver le sorcier, ils semblent bien le connaître.~
+
+// FALDORN
+@600041 = ~Cette femme est dangereuse. Elle risque de provoquer une catastrophe naturelle dont elle n'a pas conscience elle-même.~
+@600042 = ~Et de quoi une bête sans cervelle comme toi se mêle-t-elle ?~
+@600043 = ~Je ne suis pas un ignare femme. J'ai déjà rencontré une communauté druidique autrefois, à Kuldahar. Le Grand Druide tenait un discours bien différent du tien. Les colons savaient vivre en harmonie avec...~
+@600044 = ~Kuldahar ? Cette petite réserve naturelle du grand Nord ? Humph ! Tu ne sais pas de quoi tu parles, le Grand Chêne aurait étendu son pouvoir bien plus loin si les hommes ne l'avaient pas asservi. Il suffit !~
+
+// LOGAN, SEIGNEUR MARCHAND DE FRANC MARCHE
+@600045 = ~Nous ne pouvons laisser un homme peut-être innocent enfermé, ce serait la pire des injustices. Il faut lui parler.~
+
+// GAAL
+@600046 = ~Que veut donc ce fou ? Son discours a l'air d'attirer l'attention. Curieux que les prêtres n'affirment pas plus leur autorité, un prêtre de Tempus lui aurait déjà fermé son claquet depuis longtemps.~
+
+// LADY DELCIA
+
+@600047 = ~Pourquoi mépriser ainsi ceux qui te sauvent la vie femme ? Un acte courageux est noble et doit être reconnu comme tel.~
+@600048 = ~Quel est donc cet ours ? Vous ne savez pas de quoi vous parlez, la noblesse est affaire de naissance et rien de ce que vos ferez ne vous permettra d'accéder à cet échelon.~
+@600049 = ~Quelle étrange contrée... Au Valbise, les chefs ont plus d'honneur que ça, ce sont eux qui sauvent les plus démunis et non l'inverse.~
+
+// CUISINIER TROLL
+@600050 = ~Il n'est pas né le monstre qui me cuisinera. Mais si tu veux, je peux te proposer des intestins de troll à la place.~
+
+// KANGAXX
+@600051 = ~A mon avis, ce n'est pas sans raison s'il a été démembré, nous devrions le laisser à son sort.~
+@600052 = ~Pourquoi faut-il toujours que ces horreurs réagissent de cette façon ? On ne peut donc jamais en croiser un sans que ça finisse en baston ?~
+
+// KALAH
+@600053 = ~On ne peut jouer avec la vie des autres sans que ça ne vous retombe dessus. Tu t'es frotté à plus fort que toi Kalah.~
+
+// ARAN BATEAU
+// BODHI BATEAU
+@600054 = ~J'ai hâte de prendre la mer. Je sais que nous n'allons pas en Valbise mais voir d'autres cieux sera un grand plaisir.~
+
+// BODHI LABYRINTHE
+@600055 = ~Un petit massacre de vampires te conviendrait-il ?~
+
+// IRENICUS ASILE
+@600056 = ~Nous y voilà. Désolé magicien, mais après ce que tu as fait nous ne pouvons te laisser vivre, j'espère que tu comprendras.~
+
+// ROI SAHUAGIN
+@600057 = ~Je ne fais confiance à aucune de ces bêtes. Fais ce que tu veux <CHARNAME>, dans un cas comme dans l'autre on va devoir se battre.~
+
+// PRINCE SAHUAGIN
+@600058 = ~Quand je pense que chez nous on fait des bijoux avec leurs arêtes... Je trancherais bien ce poisson-là.~
+
+// SAMIA
+@600059 = ~Qui est le plus idiot ? Celui qui a le dernier mot ou celui qui baigne dans son sang à la fin de la conversation ?~
+@600060 = ~Tiens, un barbare. pour répondre à ta question, tu es l'idiot ce qui est un pléonasme puisque tu es un barbare.~
+
+// DRAGON ARGENT
+@600061 = ~Quelle créature magnifique ! Elle me rappelle Icasaracht, une dragonne malfaisante vaincue par les miens jadis. Mon père m'avait fait une desciption qui n'est pas sans nous rappeler celle que nous avons en face de nous.~
+
+// ARDULACE
+@600062 = ~Elle ne perd rien pour attendre celle-là. Dès que l'occasion se présentera...~
+
+// SOLAUFEIN
+@600063 = ~Ce guerrier m'a l'air d'avoir du potentiel. Et peut-être même un peu d'honneur.~
+
+// VISAJ
+@600064 = ~Tu diras que je n'aime aucun elfe noir mais celui-ci ne me revient vraiment pas.~
+
+// ARAN LINVAIL ENNEMI
+@600065 = ~Viens Aran, viens voir de quoi est capable un gladiateur non enchaîné.~
+@600066 = ~Tu ne nuiras plus jamais au commerce d'esclaves quand j'en aurai fini avec toi. Je vais te renvoyer dans la cage que tu n'aurais jamais du quitter pour le restant de tes jours !~
+
+// LLOYD, LE MINISTRE
+@600067 = ~Il se passe quelquechose ici, nous ne sommes pas venus pour rien.~
+@600068 = ~Comme ce lieu est paisible maintenant que la paix est revenue. Je m'y reposerai bien un peu.~
+
+// IRENICUS
+@600069 = ~Tu vas avoir droit à la totale magicien. La fureur d'un barbare aura raison de ta magie.~
+@600070 = ~Les sous-hommes dans ton genre ne sont bons qu'à servir d'esclaves. Tu seras ma chose quand j'en finirai avec vous.~
+
+// BODHI CHAPITRE 3
+@600071 = ~Cette femme me met terriblement mal à l'aise. J'ai souvent toisé la mort dans l'arène et j'ai l'impression qu'une personne assez puissante pour défier les Voleurs de l'Ombre doit être particulièrement dangereuse.~
+
+// BODHI COMBAT FINAL
+@600072 = ~Enfin nous allons pouvoir te tuer dans les règles monstruosité !~
+
+// 1ERE MORT D'IRENICUS
+@600073 = ~Crève démon ! Qu'est-ce que ?~
+@600074 = ~Par Tempus, ce lieu... C'est l'épreuve ultime. Nous la remporterons ensemble <CHARNAME> ou nous périrons ensemble.~
+
+// SAEMON
+@600075 = ~Tiens, un traître. On le tue tout de suite ou maintenant ?~
+@600076 = ~Quelle surprise, c'est presque inattendu.~
+@600077 = ~Reste ici lâche !~
+@600078 = ~A votre place je commencerais par le capitaine de ce navire.~
+@600079 = ~(Hendak se dirige aussitôt vers la proue du navire, le visage perdu dans le lointain) Quel bonheur de naviguer... Quand ce n'est pas toi qui rame bien sûr !~
+@600080 = ~La trahison est inscrite sur son visage, on devrait le couper en morceaux.~
+
+// ARBRE DE VIE
+@600081 = ~(Hendak, le barbare devenu esclave, l'esclave devenu libre. Son courage et sa vaillance n'ont jamais fait défaut et vous savez qu'il se considérera toujours comme votre débiteur pour l'avoir libéré. Mais n'est-il pas temps pour lui de profiter de sa liberté et de rentrer chez lui ?)~
+@600082 = ~Après tout le chemin parcouru, nous voilà enfin confrontés à l'épreuve finale. J'ai plus que jamais besoin de ta force Hendak.~
+@600083 = ~Hendak, tu es un homme libre à présent. Ta dette est payée, tu peux retrouver les tiens. Inutile de risquer ta vie dans un combat qui ne te concerne pas.~
+@600084 = ~Un barbare ne recule jamais devant un combat. Je t'ai suivi mais tu n'as toujours pas récupéré ton âme. Tant qu'elle ne sera pas tienne, je resterai ton débiteur. (Il tire sa lame et la regarde avec émotion) Elle a soif de sang de magicien, je m'en vais l'abreuver.~
+
+// PHAERE
+@600085 = ~Nous ne pouvons massacrer des êtres sans défense. Il n'y a rien de plus honteux et pour une fois, je trouverais davantage d'honneur à éviter le combat si nous le pouvons.~
+@600086 = ~Ce Solaufein est un brave. Si nous l'affrontons, faisons le en guerrier. Parlons-lui, qu'il sache pourquoi il doit mourir.~
+
+// PREMIERS VERTIGES
+@600087 = ~Quelquechose ne va pas <CHARNAME> ? As-tu pris un mauvais coup ?~
+@600088 = ~J'ai senti comme un bouillonnement... A l'intérieur de ma tête. Mais ça va mieux.~
+@600089 = ~Laisse-moi Hendak, je dois juste... récupérer.~
+@600090 = ~Je... Je ne sais pas ce qui m'arrive. Un coup de fatigue, mais intense...~
+@600091 = ~Ca n'a pas l'air. Je ne peux te soigner mais compte sur moi pour te protéger si tu as du mal à combattre.~
+@600092 = ~Très bien, mais n'hésite pas à demander une pause. Après ce qui t'es arrivé, un moment de faiblesse est très normal.~
+@600093 = ~Nous devrions nous asseoir quelques minutes. Repose-toi, je m'occuppe des ennemis.~
+
+// PREMIERE TRANSFORMATION
+
+@600094 = ~(Hendak, encore sous le choc de ce qui vient de vous arriver, se précipite vers vous.)~
+@600095 = ~Même quand je deviens berserker je ne ressemble pas ça. Mon pauvre <CHARNAME>, qu'es-tu donc devenu ?~ ~Même quand je deviens berserker je ne ressemble pas ça. Ma pauvre <CHARNAME>, qu'es-tu donc devenue ?~
+@600096 = ~Je... J'espère être assez fort pour pouvoir contenir ta fureur si une telle chose devait se reproduire.~
+
+// DEUXIEME TRANSFORMATION
+
+@600097 = ~<CHARNAME> ? Tu sembles à nouveau en train de te transformer.~
+@600098 = ~Hendak... Il faut... me retenir...~
+@600099 = ~Ne reste pas là Hendak, je ne sais pas si je pourrai...~
+@600100 = ~Eloigne toi barbare ! Je suis un être dangereux.~
+@600101 = ~<CHARNAME> ? Tiens bon, je vais essayer de te retenir mais tu dois lutter, rester toi-même.~
+@600102 = ~(Alors que vous redevenez vous-même, vous voyez le barbare s'affaisser. La lutte a été violente et votre ami a du faire appel à toute son énergie pour survivre à une telle violence.)~
+@600103 = ~Ce n'est pas le genre d'exercice que je ferais tous les jours. J'espère que tu arriveras à te maîtriser <CHARNAME>. Je te promets de retrouver ce maudit mage. Nous lui arracherons ton âme et nous l'expédierons dans les abysses au passage.~
+
+// BERNARD
+
+@600104 = ~Tiens, voilà notre célébrité locale. Ca va grand gaillard ?~
+@600105 = ~J'aimerais laisser cette vie de gladiateur derrière moi Bernard, traite-moi donc comme un client normal.~
+@600106 = ~Moi j'veux bien mais tout le monde vous regarde. Faut pas leur en vouloir, tu leur as donné de tels spectacles...~
+@600107 = ~Ils devraient avoir honte de regarder ces massacres d'innocents. Je ne sais pas ce qui me retient de...~
+@600108 = ~Allons, oublie ça. Tu sais, ces gens ne te détestent pas. Ils ont au contraire beaucoup de respect et d'admiration, tu es un peu leur idole ici. Accepte-le comme tu vas accepter ce verre !~
+
+// KVEROSLAVA, ROM DE FRANC MARCHE
+@600109 = ~Un homme puissant qui vient juste de retrouver sa liberté. Lié par l'honneur à <CHARNAME>, le chemin est encore long avant que tu ne retrouves les tiens. Mais je te le dis, tu marcheras de nouveau aux côtés de ton sang lorsque vous aurez débusqué Celui qui est caché.~
+@600110 = ~Hein ? De qui parles-tu ?~
+@600111 = ~Je viens de te le dire, il est caché, je ne vois rien sur Lui, je sais juste que tu dois le trouver pour accomplir ta destinée. Passons à vous <CHARNAME>.~
+
+// ELLESIME
+
+@600112 = ~Quelle beauté surnaturelle. Si je n'étais pas marié je... Non, je divague.~
+
+// IRENICUS COMBAT FINAL
+@600113 = ~Il est trop tard pour toi sorcier. Tu vas recevoir la plus belle raclée de ta vie et tu resteras pourrir dans ces lieux pour l'éternité !~
+
+// YOSHIMO
+@600114 = ~J'aurais du savoir qu'on ne pouvait pas faire confiance à un chasseur de primes, c'est l'histoire qui se répète. Tu es un homme mort Yoshimo, tu m'entends ? Mort.~
+
+// MAITRE DES ESCLAVES
+@600115 = ~Il n'y a rien de plus dangereux que la vengeance d'un homme tout juste libéré, tu vas l'apprendre aujourd'hui. Mais j'ai bien peur que cette leçon ne te soit inutile là où nous allons t'expédier sale esclavagiste !~
+@699115 = ~Tu vas souffrir insolent !~
+
+
+
+////ROMANCE
+
+@700000 = ~Le... Le ciel. Enfin ! Cela fait des années que je ne l'avais plus vu. Depuis mon arrivée à la Couronne, Lehtinan ne m'a jamais laissé sortir par peur que je m'évade.~
+@700001 = ~Vraiment Hendak ? Comment as-tu fait pour ne pas devenir fou ?~
+@700002 = ~Tu vas pouvoir rattraper le temps perdu, je te promets de te faire voir du pays !~
+@700003 = ~J'imagine que c'est par volonté. C'est ce qui m'a permis de tenir si souvent dans l'arène, de survivre à chaque combat sans jamais baisser les bras. J'ai toujours espéré que ce jour viendrait, le jour où je tuerais Lehtinan et goûterais à nouveau la liberté.~
+@700004 = ~Quoi qu'il en soit, notre voyage sera l'occasion pour toi de parcourir à nouveau le monde.~
+@700005 = ~Ce sera vraiment un plaisir de goûter ma liberté en ta compagnie <CHARNAME>. Merci de m'avoir offert cette chance.~
+@700006 = ~Je suis bien mal équipé. Lehtinan avait conservé mon écharpe mais je prendrais volontiers d'autres vêtements que ces haillons. Quant à ces épées émoussées... Pourrions-nous nous rendre sur la Promenade ? J'ai parfois entendu Lehtinan parler d'une boutique où l'on trouve de tout. Il s'y rendait de temps à autre pour remplacer notre équipement lorsqu'il devenait trop usé.~
+
+//BAZAR
+@700007 = ~(Alors que vous pénétrez au bazar de l'Aventurier, Hendak tire quelques pièces d'or récupérées sur Lehtinan et commence à observer les étalages) Dans un instant <CHARNAME>, tu verras comment on s'habille dans mon pays.~
+@700008 = ~(Au bout de quelques minutes, le barbare revient vêtu d'un pourpoint de tissu vert et d'une cape de fourrure similaire à son écharpe. Sur ses côtes, deux fourreaux finement ouvragés laissent voir les lames réaffûtées avec lesquelles il tua plus d'un ennemi dans l'arène. Malgré sa barbe et ses cheveux en brosse, vous trouvez que votre compagnon de route a bien plus de prestance)~
+@700009 = ~Ces vêtements sont chauds dans cette contrée mais voilà le style que l'on porte au Val de Bise. Merci pour ce détour <CHARNAME>. Je... J'ai mon propre équipement, acheté par moi et pour moi. Qu'il est bon de ne plus être esclave. Remettons-nous en route, j'ai hâte de voir plus de pays !~
+
+//2e DIALOGUE (ENFANT DE BHAAL)
+
+@700010 = ~Voilà quelque temps que nous marchons <CHARNAME> et tu ne dis mot. Y a-t-il quelquechose qui te tracasse ?~
+@700011 = ~Pas du tout mais je sens que tu as quelquechose à demander. Ne te gêne pas, dis-le.~
+@700012 = ~J'aime le silence et je préfère qu'il en reste ainsi. Je t'ai offert la liberté, tu m'offres tes bras, cet échange me suffit. Il n'est pas nécessaire de raconter sa vie pendant tout le voyage.~
+@700013 = ~Non, je n'ai aucun problème.~
+@700014 = ~Bien. Alors je voudrais te parler.~ //ENFANT
+@700015 = ~Tu as un sacré caractère <CHARNAME> ! En tout cas, si tu veux que je reste silencieux, pas de problème. De toute façon, je préfère me battre.~ //ECHEC
+
+@700016 = ~Il paraît que tu es un Enfant de Bhaal. Je ne connais pas cette divinité, qui est-ce ?~ ~Il paraît que tu es une Enfant de Bhaal. Je ne connais pas cette divinité, qui est-ce ?~
+@700017 = ~Je ne sais pas qui t'a révélé ça mais je préfère te le dire tout de suite, oublie ce sujet. Je ne veux pas parler de mon père, que ce soit bien clair !~
+@700018 = ~Je ne sais pas qui t'a appris ça mais puisque tu es au courant... Bhaal était le Dieu du Meurtre, une divinité malfaisante. Il semble qu'il ait engendré beaucoup d'Enfants comme moi mais je n'en connais qu'un seul.~
+
+@700019 = ~Comment puis-je te faire confiance si je ne sais rien de toi ? Je ne te jugerai pas sur ton ascendance, je veux simplement te connaître mieux.~
+@700020 = ~N'insiste pas. Je t'ai libéré, c'est une raison suffisante pour me faire confiance.~
+@700021 = ~Bon, garde tes secrets alors et je garderai le silence.~
+
+@700022 = ~Tu es sourd ? Mes origines ne te regardent pas alors ferme-la !~
+@700023 = ~Quel caractère ! Si tu parles sur ce ton à tout le monde tu dois avoir beaucoup d'ennemis. Par respect pour celui qui m'a sauvé, je garde mon arme à ta cause mais n'abuse pas de ma patience...~ ~Quel caractère ! Si tu parles sur ce ton à tout le monde tu dois avoir beaucoup d'ennemis. Par respect pour celle qui m'a sauvé, je garde mon arme à ta cause mais n'abuse pas de ma patience...~
+
+@700024 = ~Hum. Je n'aime pas aborder ce sujet mais tu as le droit de savoir. Mon père était le Seigneur du Meurtre. C'est un Dieu malfaisant. Je crois qu'il a engendré nombre d'Enfants comme moi mais je n'en connais qu'un seul.~
+@700025 = ~Qui était-ce ?~
+@700026 = ~Cela ne te regarde pas.~
+@700027 = ~Il s'appelait Sarevok. Il a tué mon père adoptif et a failli déclencher une guerre. Je l'ai tué il y a quelque temps à la Porte de Baldur.~
+@700028 = ~Comme tu veux. Comment vis-tu ton héritage ?~
+@700029 = ~Tu as fait ce qu'il fallait. Comment vis-tu d'être fils de Bhaal ?~ ~Tu as fait ce qu'il fallait. Comment vis-tu d'être fille de Bhaal ?~
+
+@700030 = ~C'est un lourd fardeau. J'ai fait nombre de cauchemars l'an dernier et je continue à entendre des voix qui murmurent dans mon sommeil. J'aurais donné n'importe quoi pour être un mortel ordinaire.~ ~C'est un lourd fardeau. J'ai fait nombre de cauchemars l'an dernier et je continue à entendre des voix qui murmurent dans mon sommeil. J'aurais donné n'importe quoi pour être une mortelle ordinaire.~
+@700031 = ~Je comprends. C'est une bonne chose de lutter contre une nature démoniaque et j'espère pouvoir t'y aider.~
+@700032 = ~A vrai dire, ça ne me fait ni chaud ni froid. Je suis comme je suis et j'ai appris à l'accepter.~
+@700033 = ~Tu m'as l'air parfaitement équilibré <CHARNAME>. Tant mieux pour toi, j'imagine que tes frères et soeurs n'ont pas cette chance.~ ~Tu m'as l'air parfaitement équilibrée <CHARNAME>. Tant mieux pour toi, j'imagine que tes frères et soeurs n'ont pas cette chance.~
+@700034 = ~C'est une grande fierté pour moi. Tu ne peux imaginer ce que ça fait de sentir la puissance couler dans ses veines et je ne compte pas m'arrêter aux quelques pouvoirs mineurs que j'ai développés.~
+@700035 = ~Je vois... Prends garde à ne pas te laisser submerger par cette puissance. Après tout, tu ne connais pas les desseins de Bhaal.~
+
+
+//3e DIALOGUE (VALBISE)
+
+@700036 = ~Je ne m'en rendais pas forcément compte dans ma cellule, mais il fait bien chaud dans cette contrée.~
+@700037 = ~Quelle idée aussi de se promener en fourrure ! Tu ne veux pas enlever ta cape ou ton écharpe ?~
+@700038 = ~Non. Ce vêtement est typique de mon pays et c'est avec fierté que je le porte !~
+@700039 = ~Parle moi de ton pays.~
+@700040 = ~Comme tu veux mais si j'ai bien compris, ton pays est bien plus au nord. C'est normal de porter ça là-bas.~
+
+@700041 = ~Chaud ? Tu trouves ? Je sens pourtant un vent rafraîchissant.~
+@700042 = ~Haha ! Alors c'est que tu n'as jamais senti la morsure du blizzard qui souffle parfois sur l'Epine Dorsale du monde.~
+@700043 = ~L'Epine Dorsale ? J'en ai entendu parler mais jamais je ne suis allé si loin au nord. Pourrais-tu m'en dire un peu plus ?~ ~L'Epine Dorsale ? J'en ai entendu parler mais jamais je ne suis allée si loin au nord. Pourrais-tu m'en dire un peu plus ?~
+@700044 = ~J'ai déjà senti le vent marin sur les falaises de Châteausuif mais je ne connais pas le blizzard. Qu'est-ce ?~
+@700045 = ~Heureusement, c'est assez rare. C'est un vent violent glacial et neigeux qui souffle généralement en hiver. Même les plus robustes d'entre nous préfèrent s'abriter que de se risquer dehors.~
+@700046 = ~Et si tu me parlais un peu des tiens ?~
+
+@700047 = ~Je n'ai pas vraiment besoin de ton avis pour connaître la météo tu sais.~
+@700048 = ~Sans doute, c'était histoire de causer.~
+@700049 = ~Si tu veux, parle-moi plutôt de ton pays.~
+@700050 = ~Ne m'en veux pas mais je préfère marcher en silence pour le moment.~
+@700051 = ~Très bien, nous... Nous parlerons plus tard.~
+
+@700052 = ~Je viens d'un village qu'on appelle Havredest, situé sur les rives du lac Dinneshere, au nord de l'Epine Dorsale. Peut-être en as-tu entendu parler, c'est l'une des Dix-Cités.~
+@700053 = ~Gorion m'a parlé de cette contrée et les livres sur l'histoire ou la géographie ne manquent pas à Châteausuif. Mais tu es le premier barbare du Nord que je rencontre.~
+@700054 = ~Les 10 quoi ? Désolé, j'avoue ne pas avoir toujours écouté Gorion quand il voulait m'enseigner la géographie...~ ~Les 10 quoi ? Désolée, j'avoue ne pas avoir toujours écouté Gorion quand il voulait m'enseigner la géographie...~
+@700055 = ~Les Dix-Cités sont une communautés de 10 villes plus ou moins importantes. Nous avons fait alliance pour pouvoir repousser plus facilement des raids d'orques, de gobelins ou de barbares de la toundra.~
+@700056 = ~Attend... Tu es toi-même barbare non ? Pourquoi les vôtres vous attaquent-ils ?~
+@700057 = ~Toutes les tribus barbares ne sont pas soudées tu sais, ce serait même plutôt le contraire.~
+@700058 = ~Mon clan fait partie de ceux qui ont décidé de s'établir définitivement sur une terre. D'autres ont fait le choix de rester nomades. Ils nous craignent car les 10 Cités gagnent en ampleur et occupent de plus en plus de leurs territoires. Voilà pourquoi ils tentent parfois des incursions. Heureusement, nous savons encore nous battre.~
+@700059 = ~La plupart des habitants d'Havredest sont paisibles et vivent de la pêche ou du commerce. Mais d'autres, entraînés par le clergé de Tempus, ont appris à manier les armes afin de nous défendre, surtout après qu'un Démon ait attaqué et gelé la ville il y a quelques générations. Mon père faisait partie de ceux-là et m'a appris très tôt à me battre.~
+@700060 = ~Tu aurais du voir ça <CHARNAME> ! Tous les matins, nous nous levions bien avant le soleil, nous nous entraînions à l'épée et nous chassions. A 12 ans, j'ai du traquer seul un loup polaire et revenir avec sa peau.~
+@700061 = ~Un loup polaire ? Ces animaux ne sont-ils pas extrêmement dangereux ?~
+@700062 = ~En effet. Mon père m'a révélé plus tard qu'il m'avait suivi dans la forêt, l'arc à la main, prêt à abattre tout danger que je ne saurais pas surmonter. Mais il n'en n'a pas eu besoin car j'ai repéré rapidement le loup que je chassais. J'avais pris un de nos filets de pêche, je l'ai lancé sur la bête et alors qu'elle se débattait je lui ai rapidement tranché la gorge. C'est sa peau que je porte aujourd'hui en fourrure. Quel fierté j'ai ressentie ce jour-là. Ensuite il y eut... Non, je ne peux en parler. Reprenons la route.~
+
+@700063 = ~Dis <CHARNAME>, malgré ta parenté particulière as-tu ? As-tu réussi à te construire une famille ?~
+@700064 = ~Non hélas. Mon père est un Dieu mort et Sarevok, le seul de mes frères que je connaisse, était peu fréquentable. Pourquoi me demandes-tu cela ?~
+@700065 = ~Bien sûr ! Gorion a été un véritable père pour moi et j'ai toujours considéré Imoen comme une petite soeur. Mais pourquoi t'intéresses-tu à ma famille ?~
+@700066 = ~Parce-que si tu as la chance d'avoir une famille, profites-en ! Tu ne peux savoir quand les tiens te quitteront. Je suis désolé que ton père soit mort, j'ai connu cette perte moi aussi...~
+@700067 = ~Que s'est-il passé ?~
+@700068 = ~Une de ces nombreuses batailles entre tribus. Havredest a essuyé de nombreux combats depuis sa fondation. Mon père est mort l'épée à la main en défendant notre village contre ces barbares de la toundra. Je venais juste de fêter mes 13 ans.~
+@700069 = ~J'ai repris son épée. Elle était magique mais je ne sais pas où il l'a obtenue. Quoi qu'il en soit, j'étais devenu l'homme de la famille. Deux ans plus tard, j'ai connu une perte encore plus tragique.~
+@700070 = ~Mon frère allait avoir 12 ans. Comme moi avant lui, il a du partir seul à la chasse au loup tandis que je veillais secrètement sur lui.~
+@700071 = ~La suite ne présage rien de bon...~
+@700072 = ~Hendak, tu n'es pas obligé de...~
+@700073 = ~En marchant dans la montagne, il est tombé sur un gigantesque yéti. Ces animaux sont très dangereux et nous préférons les éviter.  Mon frère n'a pas eu cette chance. En voyant la scène, j'ai bandé mon arc et ma flèche est allée se planter dans l'épaule de la bête.~
+@700074 = ~Quel dommage que mon tir n'ait pas été plus mortel. Le yéti est aussitôt devenu fou furieux et a frappé mon frère. Juste après, je bondissais sur le monstre et lui plantais la lame de mon père dans le coeur. Malheureusement, il était trop tard pour sauver le... Le seul être qui restait de ma famille. Il avait reçu un coup de griffe mortel. Je n'ai pas su le protéger.~
+@700075 = ~Je me suis maudit ce jour-là, tout comme j'ai maudit mes ancêtres pour avoir créé une tradition si stupide. Le poids de la honte me pèse encore aujourd'hui.~
+
+@700076 = ~Tu ne dois pas avoir honte Hendak. Tu ne pouvais rien faire, c'était son destin. Il a connu une mort glorieuse.~
+@700077 = ~NON ! Sa mort est un gâchis. Une mort inutile n'est jamais glorieuse, personne ne chantera ses exploits, personne ne se souviendra de lui... Sauf moi. Tu ferais mieux de me laisser à présent.~
+@700078 = ~Mais je...~
+@700079 = ~N'insiste pas ! Je n'aurais pas du te parler de ça, j'aurais du me douter que tu ne pourrais pas me comprendre. (Vous voyez le barbare s'éloigner, l'air plutôt énervé)~
+
+@700080 = ~Et il y a de quoi ! C'est de ta faute si ton frère est mort Hendak, tu aurais du être plus prudent.~
+@700081 = ~Tu as vraiment le chic pour remuer le couteau dans la plaie ! Laisse-moi seul <CHARNAME>, je n'ai pas le coeur à endurer tes réflexions. J'ai déjà assez de mal à supporter ma faute...~
+@700082 = ~Non mais quelle fillette ! J'attendais un peu plus de cran de la part d'un fier barbare.~
+@700083 = ~Avoir du cran ne signifie pas manquer de coeur pauvre crétin ! J'aimais mon frère, mais j'imagine que l'Enfant d'un Dieu malfaisant ne peut comprendre cela.~ ~Avoir du cran ne signifie pas manquer de coeur pauvre idiote ! J'aimais mon frère, mais j'imagine que l'Enfant d'un Dieu malfaisant ne peut comprendre cela.~
+@700084 = ~Non mais dis donc, oublies-tu à qui tu parles ? Il faudrait voir à me respecter davantage mon vieux.~
+@700085 = ~Je te dois la liberté mais je ne dois aucun respect à un imbécile dans ton genre. Considère que je paie ma dette en te laissant la vie. Adieu !~ ~Je te dois la liberté mais je ne dois aucun respect à une garce dans ton genre. Considère que je paie ma dette en te laissant la vie. Adieu !~
+
+@700086 = ~Excuse-moi Hendak, je ne voulais pas...~
+@700087 = ~Laisse tomber. (Le barbare s'éloigne, l'air passablement énervé)~
+
+//4e DIALOGUE (EXCUSES)
+
+@700088 = ~<CHARNAME> ? Je peux te parler une seconde ?~
+@700089 = ~Cela dépend de ce que tu as à dire.~
+@700090 = ~Bien sûr. De quoi veux-tu parler ?~
+@700091 = ~Je ne veux plus supporter tes sautes d'humeur. Qu'as-tu à dire ?~
+@700092 = ~Tu n'y es pour rien dans la mort de mon frère. C'est mon fardeau, je dois le supporter. Je regrette d'avoir tourné ma colère contre toi.~
+
+@700093 = ~Ton côté sanguin m'est très utile en combat mais tu devrais te surveiller lorsque tu me parles.~
+@700094 = ~Je le ferai. J'espère tout de même que tu vois en moi un ami plutôt qu'un simple guerrier.~
+@700095 = ~Tu es mon ami bien sûr, mais cela ne doit pas t'empêcher de me respecter.~
+@700096 = ~Bien sûr, je comprends.~
+
+@700097 = ~Honnêtement, je ne vois pas comment je pourrais me lier d'amitié avec une brute qui s'éneve avant de réfléchir.~
+@700098 = ~Tu es aussi sanguin que moi semble-t-il.~~Tu es aussi sanguine que moi semble-t-il.~
+
+@700099 = ~Ce n'est pas grave Hendak, ce genre de drame est forcément dur à porter.~
+@700100 = ~Quoi qu'il en soit, j'aimerais bien boire un coup avec toi. Par la même occasion, je m'inquiète du sort de mes anciens compagnons esclaves. Si tu es d'accord, nous pourrions nous rendre à la Couronne de Cuivre bientôt afin de nous amuser et voir ce qu'il en est.~
+
+
+//5e DIALOGUE : LA COURONNE DE CUIVRE
+
+@700101 = ~(Arrivés à la Couronne de Cuivre, Hendak  prend place à une petite table isolée que vos compagnons et vous ne tardez pas à rejoindre) Laisse-moi t'offrir à boire <CHARNAME>, je te dois bien ça. Bernard ! Perce tes tonneaux, on va en avoir pour la nuit !~
+@700102 = ~(Vous commencez à boire les chopes que l'on vous sert. Hendak semble résister remarquablement tandis que votre propre tête commence à tourner. Soudain, un brouhaha attire vore attention vers l'arène)~
+
+@700103 = ~Arrr, quoi faire ?~
+@700105 = ~Merci encore pour votre aide, vous serez toujours les bienvenus ici.~
+
+@700108 = ~Alors c'est toi Mot Tranche-membres ? Tu es libre ogre.~
+@700109 = ~Ca vrai ? Moi pouvoir partir ?~
+@700110 = ~Tu peux partir oui. Il n'y aura plus de combats ici. Ca va Cormak ?~
+@700111 = ~Merci Hendak, c'est bon de te revoir.~
+@700112 = ~Tu peux m'expliquer ?~
+@700113 = ~Oui, je suis désolé. Après ton départ, j'ai fait interdire les combats de gladiateurs et d'animaux et les clients ont commencé à déserter. Jusqu'au jour où ce marchand, ce Norman, est venu.~
+@700114 = ~Il m'a racheté l'auberge à prix d'or. Quand je lui ai demandé comment il comptait faire fortune, il m'a expliqué qu'il comptait restituer les loisirs autrefois disponibles en ce lieu. J'ai donc voulu annuler la transaction.~
+@700115 = ~Norman a fait signe à ses hommes de main. Ils m'ont enfermé dans cette geôle où nous étions tous deux autrefois. Non seulement, il ne m'a pas payé la somme promise, mais j'ai du à nouveau combattre comme gladiateur ! Heureusement que tu es revenu.~
+@700116 = ~Cormak, tu dois te faire respecter de ces brutes. Je ne serai pas toujours là tu sais, je voyage beaucoup maintenant. Sois ferme ! Interdis les combats et l'esclavage et ne vend pas ton auberge au premier malfrat venu.~
+@700117 = ~On devrait peut-être y aller là non ?~
+@700118 = ~Si tu veux <CHARNAME>, si tu veux...~
+@700119 = ~Alors, on se l'finit cet hydromel ?~
+@700120 = ~Et comment !~
+
+//6e DIALOGUE
+
+@700121 = ~Vois-tu <CHARNAME>, malgré les épreuves que j'ai traversées, j'ai toujours mon rayon de soleil, ma part de bonheur que j'espère un jour retrouver.~
+@700122 = ~De quoi parles-tu ?~
+@700123 = ~Tant mieux, je ne veux pas de dépressif dans ce groupe !~
+@700124 = ~Johanna... Elle était la plus belle femme que j'ai jamais rencontrée. Elle faisait des bijoux en os, assise sur le ponton près du lac Dinneshere. Son père était lui-même bijoutier, c'était un demi-elfe très talentueux.~
+@700125 = ~Jamais je n'oublierai ce matin-là. C'était le début de l'été, la brise faisait voler les longs cheveux d'or de Johanna. Elle créait  un petit bracelet en os de truite. J'étais de l'autre côté du lac, sur un rocher, j'ai plongé et nagé jusqu'à ses pieds qu'elle trempait dans l'eau claire. Elle a fait semblant de ne pas me voir.~
+
+@700126 = ~Je suis sûr qu'elle a glissé, qu'elle est tombée à l'eau et que tu l'as sauvée.~
+@700127 = ~Ca n'a pas été aussi épique, c'était au contraire très simple.~
+
+@700128 = ~Je suis sûr que tu l'as jetée à l'eau pour rigoler.~
+@700129 = ~Oui, j'aurais pu effectivement la précipiter dans le lac et me fâcher à mort avec elle mais ce n'est pas ce qui s'est passé.~
+
+@700130 = ~Et qu'as-tu fait ?~
+@700131 = ~Je lui ai souri, tout simplement. Elle m'a souri en retour. Nous avons commencé à parler. Je lui ai dit combien je la trouvais belle, elle a rougi, j'ai plongé au fond du lac pour y ramasser un coquillage que je lui ai offert. Je suis sorti de l'eau, sans être gênée par mes vêtements mouillés elle s'est approchée de moi et nous nous sommes embrassés.~
+@700132 = ~C'est tout ?~
+@700133 = ~Oui c'est tout. Pourquoi voudrais-tu que tout soit toujours compliqué ?~
+
+//7e DIALOGUE Enlèvement
+
+@700134 = ~Tiens, je ne t'ai pas raconté...~
+@700135 = ~Non et cela ne m'intéresse pas.~
+@700136 = ~Non alors vas-y.~
+
+@700137 = ~Tu es sûr ?~
+@700138 = ~Absolument.~
+@700139 = ~Bon, vas-y, raconte.~
+@700140 = ~Bien. Con... Continuons.~
+
+@700141 = ~Lors de ma dix-septième année, j'ai eu la chance d'épouser ma bien-aimée Johanna. Nous étions heureux... J'aimerais tant les revoir, elle et Hrotgar.~
+@700142 = ~Hrotgar ?~
+@700143 = ~Notre enfant. Il est né à peine un an après notre mariage. Je l'ai nommé ainsi en hommage à un de nos anciens chefs héroïques. J'aurais du lui apprendre ce que j'ai appris. La chasse, la pêche, le combat... Je n'ai pas eu cette chance.~
+@700144 = ~Qu'est-il arrivé ?~
+@700145 = ~L'hiver qui a suivi la naissance de mon fils, nous avions organisé une partie de chasse. Tous les hommes du village se sont réunis et nous avons traqué des yétis dans la montagne. Mais nous ignorions que de chasseurs nous allions devenir gibier.~
+@700146 = ~De fausses traces d'animaux ont été laissées intentionnellement. Alors que je suivais une piste, je suis tombé dans un piège grossier : J'étais sur une pente et j'ai été emporté par une avalanche de neige qui n'avait rien de naturel. En réalité, elle avait été déclenchée magiquement.~
+@700147 = ~Je suis sorti de la neige et je suis tombé sur un groupe de mercenaires. Des guerriers, des brigands et même des mages. Impossible de lutter, ils m'ont fait prisonnier et m'ont amené à un navire où ils m'ont vendu à des pirates. Ma vie d'esclave venait de commencer.~
+@700148 = ~D'autres barbares d'Havredest ont subi le même sort. J'ai aussi aperçu Johanna et Hrotgar emmenés sur un autre bateau. J'ai hurlé tant que j'ai pu mais le destin a été le plus fort ce jour-là. Je... Je n'ai jamais revu les miens depuis.~
+
+@700149 = ~Courage Hendak. J'ai besoin de toi pour le moment mais je te jure qu'un jour je t'aiderai à retrouver ta famille.~
+@700150 = ~Quand nous aurons fini, tu pourras rentrer chez toi et partir à leur recherche. Je suis sûr que tu les retrouveras.~
+@700151 = ~Merci beaucoup <CHARNAME>, ton amitié m'est précieuse.~
+
+//DERNIER DIALOGUE
+
+@700152 = ~J'ai vécu l'enfer depuis ma capture. Les pirates nous ont fait ramer depuis Havredest jusqu'à Athkatla. J'ignore quelle distance cela représente mais elle m'a semblé infinie. Durant des semaines, mes compagnons et moi avons ramé, reçu des coups de fouet et les plus faibles d'entre nous n'ont pas survécu longtemps.~
+@700153 = ~Et vous n'avez pas tenté de vos mutiner ?~
+@700154 = ~Si bien sûr ! Nous sommes des barbares après tout. Mais des barbares couverts de chaînes et désarmés. Notre chef de village qui avait été capturé a été le premier à se rebeller. Il s'est jeté sur un de nos contremaîtres et l'a étranglé avec sa propre chaîne. Devenant fou de rage, il a réussi à la briser mais tu penses bien qu'il n'y avait pas qu'un pirate pour nous surveiller.~
+@700155 = ~Les pirates ont encerclé notre chef. Il s'est battu vaillament mais a fini par être vaincu. Pour éviter toute rébellion future, le capitaine lui a... Il lui a...~
+@700156 = ~Et bien quoi?~
+@700157 = ~Il lui a coupé les 2 bras. Après, il l'a traîné sur le pont et l'a jeté par-dessus bord en lui disant « nage maintenant ». Le pauvre n'avait aucune chance, il n'est même pas mort l'arme à la main. Aucune mutinerie n'a eu lieu par la suite. Mais tu comprendras que ma haine envers les esclavagistes n'a d'égale que celle envers les pirates !~
+@700158 = ~Je n'ai pas eu droit à un meilleur traitement une fois à Athkatla. Lehtinan m'a très vite acheté pour m'exhiber comme une bête. Plusieurs fois j'ai tenté de m'évader mais sans succès. A chaque tentative, il a essayé de me mettre à mort. Comme ses clients commençaient à m'apprécier, il ne pouvait pas m'assassiner donc il me livrait à des créatures dangereuses.~
+@700159 = ~J'ai survécu, je crois que c'est grâce à ma foi en Tempus. Je n'étais pas tourné vers la religion avant ma capture mais seule ma foi et mon envie de vengeance m'ont donné le courage de tenir. Quant à mes compagnons de cellule, j'essayais de les réconforter et de panser leurs blessures. Lehtinan devait le savoir...~
+@700160 = ~Pourquoi ça ?~
+@700161 = ~Un jeune homme avait été atrocement mutilé dans un combat contre des tigres. Par je ne sais quel miracle, il a survécu à ses blessures. J'ai passé la nuit entière à son chevet, tentant de le guérir. Le lendemain, Lehtinan nous a fait jeter tous les 2 dans l'arène et a été très clair. Il fallait que seul l'un de nous survive. J'ai protesté mais des archers postés en hauteur avaient ordre de nous abattre tous les 2 si nous ne combattions pas.~
+@700162 = ~La mort dans l'âme, j'ai tué l'homme que j'avais sauvé. Et au nom de quoi ? Même Tempus ne peut reconnaître un tel acte. Je crois que je me serais laissé mourir si un événement inattendu n'était survenu.~
+@700163 = ~Quel événement ?~
+@700164 = ~Toi <CHARNAME>. C'est toi qui m'as sauvé. Tu es arrivé au moment où j'en avais le plus besoin. Au lieu de tourner ma rage contre moi-même et de me suicider, j'ai obtenu ma vengeance. Tu n'imagines même pas à quel point je te suis dévoué pour ce que tu as fait pour moi. Tant que tu auras besoin de moi, je serai à tes côtés. Merci pour tout, mon ami.~ ~Toi <CHARNAME>. C'est toi qui m'as sauvé. Tu es arrivée au moment où j'en avais le plus besoin. Au lieu de tourner ma rage contre moi-même et de me suicider, j'ai obtenu ma vengeance. Tu n'imagines même pas à quel point je te suis dévoué pour ce que tu as fait pour moi. Tant que tu auras besoin de moi, je serai à tes côtés. Merci pour tout, mon amie.~
+
+
+
+
+/////BANTERS
+////JAN JANSEN
+
+@800000 = ~Dis-moi Musclor...~
+@800001 = ~Jan, je m'appelle Hendak.~
+@800002 = ~Désolé. Dis-moi Hendy...~
+@800003 = ~Tu n'as donc pas entendu ? Je suis Hendak. HEN-DAK !~
+@800004 = ~J'ai bien compris Hendy. Je voulais te demander...~
+@800005 = ~(soupirant) Oui ?~
+@800006 = ~D'où te vient cette jolie fourrure ?~
+@800007 = ~C'est un cadeau de mes parents. Mon père était parti chasser le loup et après avoir ramené et dépecé la bête, ma mère m'a conçu cette cape. Enfin, c'était une cape quand j'avais 10 ans, aujourd'hui je la garde simplement autour du cou vu sa taille.~
+@800008 = ~Très élégante. Ca me rappelle le travail de Tante Pétunia. Elle était la grande couturière des Jansen. Elle a cousu tous les vêtements de la famille en poils de navets. Nous travaillions dur alors, mes cousins et moi ramassant les navets dans le jardin, les épluchant et arrachant les poils pour les donner à Tante Pétunia. Au bout du compte, après avoir habillé toute la famille, Tante Pétunia a décidé d'ouvrir un commerce.~
+@800009 = ~Elle confectionnait des tas de petits bonnets pour les humains. Au début, le commerce était florissant. Les humains raffolaient de ce nouveau produit très tendance et des personnes illustres ont commencé à passer des commandes. Les Grands-Duc de la Porte de Baldur ont renouvelé leur garde-robe chez Tatie Pétunia. Puis Elminster est venu un jour lui commander un chapeau neuf.~
+@800010 = ~Jan, tu ne crois pas que tu en fais un peu trop ?~  //CHARNAME
+@800011 = ~Or donc, Elminster a commandé son chapeau neuf chez Pétunia. Le problème est que la magie affecte gravement les navets. Au bout d'une semaine de téléportation, son chapeau était tout flétri! Bien sûr, Tante Pétunia a tout de suite proposé de l'échanger mais le magicien a préféré s'adresser à la concurrence et ce fut la fin du commerce de vêtements de Tatie.~
+@800012 = ~C'était... Très intéressant.~
+
+
+@800013 = ~Tu sais Hendy, tu me fais penser à mon oncle Richard, celui qui faisait du théâtre à Eauprofonde.~
+@800014 = ~Quel rapport entre ton oncle et moi ?~
+@800015 = ~J'ai toujours admiré les comédiens, je suis passionné par l'art de la scène et je dois dire que je suis sans conteste un de tes plus grands fans !~
+@800016 = ~Mais enfin, je ne suis pas comédien !~
+@800017 = ~Alors ce n'est pas toi que j'ai vu sur scène à la Couronne de cuivre ? Ce n'est pas toi qui a terrassé de nombreux monstres et humains sous les acclamations du public ?~
+@800018 = ~Mais... Ca n'est pas du théâtre ça !~
+@800019 = ~Ne sois pas modeste Hendy, j'adore ta façon de jouer. Tu as toujours su maintenir le suspense, laissant croire le public que cette fois tu allais y passer mais à chaque fois tu t'en sortais tout de même ! Quel art ! Quel sens du spectacle ! Oncle Richard t'aurait voulu dans sa troupe, lui qui a été obligé de tirer sa révérence à cause de comédiens médiocres.~
+@800020 = ~Je dois dire que ça me choque d'apprendre que tu as fait partie de ces gens qui m'ont regardé risquer ma vie jour après jour sans états d'âme.~
+@800021 = ~C'est là que tu te trompes Hendy. Si ces gens se fichaient éperdument de ta vie, ce n'était pas mon cas. J'ai toujours souhaité que tu te sortes de chaque combat (surtout après avoir parié sur lui...).~
+
+
+@800022 = ~Dis-moi le gnome, je t'entends raconter beaucoup d'histoires. Y en a-t-il seulement une dans le tas qui est vraie ?~
+@800023 = ~Oh non Hendy, pas toi ? Toutes mes histoires sont parfaitement exactes même si les ignares en doutent. Mais je pensais que tu étais plus intelligent que ça.~
+@800024 = ~Désolé de te décevoir...~
+@800025 = ~Tu es comme mon cousin Robbie, il ne croyait jamais ce qu'on lui disait.~
+@800026 = ~Et c'est reparti...~
+@800027 = ~Robbie était marchand de babouches dans la lointaine Zakhara. Les affaires marchaient plutôt bien pour lui, il avait développé une technique de fabrication inédite en utilisant du cuir de dragon des sables.~
+@800028 = ~Mais sais-tu seulement de quoi tu parles ?~
+@800029 = ~Un jour, il a porté plainte pour vol, on lui avait soi-disant dérobé ses plus belles babouches, celles qu'il chaussait. Personne ne l'a cru car personne à Zakhara n'a la pointure d'un gnome. On lui a dit « Tu les as sûrement égarées dans l'antre du dragon ». Mais il ne voulait pas nous croire. Du coup, c'est son frère qui est allé dans l'antre, il a retrouvé les babouches perdues mais comme il n'avait pas l'habitude des dragons des sables il s'est fait dévorer et les babouches n'ont plus été retrouvées par la suite et... Hendy ?~
+@800030 = ~(le regard ailleurs  puis sursautant) Hein ? Quoi ?~
+@800031 = ~Non, rien.~
+
+
+
+////NALIA
+
+@800032 = ~Nalia, pourrais-je vous poser une question ?~
+@800033 = ~Bien sûr Hendak, tout ce que vous voulez.~
+@800034 = ~Vous qui êtes souvent descendue à la Couronne de Cuivre, comment avez-vous pu permettre que tout cela existe ?~
+@800035 = ~Je... De quoi voulez-vous parler exactement ?~
+@800036 = ~Vous le savez très bien... L'esclavage, la prostitution, les paris sur les combats de chiens quand ce ne sont pas des combats d'homme... Comment votre coeur toujours prêt à défendre les plus démunis a-t-il pu tolérer cela ?~
+@800037 = ~Enfin Hendak ! Comment pouvez-vous croire un seul instant que je venais pour assister à ce genre de spectacle ? J'ignorais ce qui se passait, je vous le jure !~
+@800038 = ~J'ai du mal à croire que vous soyiez aussi naïve... Mais ça ne change rien. Si vous aviez su tout ça, qu'auriez-vous fait ?~
+@800039 = ~Je...~
+@800040 = ~(l'interrompant) Seriez-vous intervenue au beau milieu d'un combat entre gladiateurs ? Auriez-vous exigé que tout cela cesse immédiatement ? Je ne crois pas...~
+@800041 = ~Hendak, vous devez comprendre que ma situation est loin d'être aussi simple. C'est vrai, j'ai beaucoup de chance d'être née dans une famille noble mais cela ne m'apporte aucun pouvoir.~
+@800042 = ~Un grand nombre de seigneurs s'accrochent à leurs privilèges et je n'ai aucun moyen de les faire changer. J'agis comme je le peux, je cherche à montrer un nouvel exemple aux miens, mais on ne change pas les mentalités aussi facilement.~
+@800043 = ~Croyez-moi Hendak, je regrette sincèrement ce qui vous est arrivé mais je n'aurais rien pu faire.~
+@800044 = ~Aujourd'hui, vous n'êtes plus seule. Vous avez la possibilité d'agir et je vous aiderai si vous le faîtes. Peu importe le passé, vous avez maintenant l'occasion de vous rattraper.~
+@800045 = ~Je... suis ravie d'entendre cela.~
+
+
+@800046 = ~Nalia, je voulais vous dire... Je suis désolé.~  //QUETE NALIA TERMINEE
+@800047 = ~De quoi parlez-vous Hendak ?~
+@800048 = ~Je regrette ce qui vous est arrivé. La mort de votre père, le saccage de votre château. Même si nous l'avons libéré des trolls, vous avez beaucoup perdu...~
+@800049 = ~S'il vous plaît Hendak, je ne veux pas en parler. Je n'ai pas besoin de votre pitié.~
+@800050 = ~Ce n'est pas de la pitié mais de la compassion. Je sais ce que vous avez vécu, ce que vous vivez encore car je le ressens aussi.~
+@800051 = ~Vraiment ? Je doute que votre vie soit semblable à la mienne.~
+@800052 = ~Bien sûr, je suis loin d'être aussi riche que vous. Mais j'ai connu le bonheur autrefois. J'avais une famille, des amis valeureux, une vie. Il a suffi d'une seule matinée pour que tout me soit arraché. Ma liberté, ma terre, ma femme et mon fils... Tout m'a été pris en un instant ! Alors vous pouvez me croire quand je vous dis que je sais ce que vous ressentez quand toute votre vie bascule...~
+@800053 = ~Hendak...~
+@800054 = ~On dirait qu'à présent c'est vous qui me prenez en pitié. Ne vous en faîtes pas Nalia, je n'ai pas perdu espoir de retrouver les miens et vous ne devez pas perdre espoir non plus de reconstruire votre vie. Tant que vous foulez ce sol, vous pouvez bâtir votre futur. Il ne tient qu'à vous de le rendre le plus agréable possible.~
+@800055 = ~Je vous remercie Hendak. J'ai... beaucoup de chance de vous avoir.~
+
+
+@800056 = ~Hendak j'ai... Une confession à vous faire.~
+@800057 = ~Je vous écoute.~
+@800058 = ~Ce... n'est pas facile pour moi. Je... dois dire que... J'ai beaucoup d'admiration pour vous.~
+@800059 = ~Vraiment ?~
+@800060 = ~Vous n'êtes peut-être pas noble de sang, mais vous l'êtes dans votre coeur. Si tous les seigneurs étaient à votre image, le monde serait bien plus juste ! Vous... Vous n'attachez aucun crédit à la naissance et ne jugez les personnes que sur leurs actes. C'est un état d'esprit que je partage !~
+@800061 = ~Vous me flattez Nalia.~
+@800062 = ~Oh non ! Je suis sincère. Je connais tant de gentilhommes dont vous mériteriez de prendre la place. Peu importe votre lignée, vous êtes bien plus digne à mes yeux qu'un idiot comme Isaea Roenal.~
+@800063 = ~Que dois-je comprendre ?~
+@800064 = ~Oh je... (rougissant) Rien... C'est juste... que j'ai de l'affection pour vous.~
+@800065 = ~Je crois que j'ai compris...~
+@800066 = ~Oh ! Hendy ! Dis-lui oui !~ //JAN JANSEN SI PRESENT
+@800067 = ~Vous me plaisez Nalia, vous avez su abandonner une vie de luxe pour défendre vos valeurs. C'est tout à fait remarquable. Mais vous savez je... Enfin, je suis marié !~
+@800068 = ~Mais j'aurai toujours une petite place pour vous dans mon coeur. (Hendak saisit la main de Nalia et y pose un doux baiser)~
+@800069 = ~Hihi, pour un gladiateur, vous avez des manières de grand seigneur !~
+@800070 = ~J'aime vous voir sourire, je... (s'interrompant) Je crois que <CHARNAME> s'impatiente. C'est bon <CHARNAME>, on arrive !~
+
+
+
+////AERIE
+
+@800071 = ~Aaah, qu'il est bon de se sentir libre !~
+@800072 = ~Je suis d'accord Hendak. Les gens qui n'ont pas connu ce que nous avons vécu ignorent le vrai plaisir qu'offre la liberté.~
+@800073 = ~C'est vrai que vous avez été esclave. Sans vouloir vous offenser Aerie, comment une personne aussi fragile que vous a-t-elle pu supporter cela ?~
+@800074 = ~Oh ! Et bien je n'ai pas été seule vous savez. Oncle Quayle m'a aidé. Il m'a soignée, m'a apporté le réconfort dont j'avais besoin... Sans lui j'aurais sûrement dépéri. Mais vous-même, comment avez-vous tenu ?~
+@800075 = ~Je crains que mon histoire ne soit plus sombre que la votre. Moi, je n'ai jamais eu de soutien comme votre oncle. Seulement des adversaires à tuer. Ce qui m'a permis de tenir, c'est ma haine et ma soif de vengeance envers Lehtinan.~
+@800076 = ~C'est... terrible de devoir en arriver là ! Même si Lehtinan était méchant.~
+@800077 = ~Croyez-vous que le choix m'ait été donné Aerie ? Il faudra vous y faire, le monde dans lequel nous vivons n'est pas « beau ». Je pensais que vous le saviez.~
+@800078 = ~Oui je... Je suis désolée. Reprenons la route.~
+
+
+@800079 = ~Quelle magnifique journée, vous ne trouvez pas ?~
+@800080 = ~Aerie, vous avez gardé votre âme d'enfant.~
+@800081 = ~Combien de temps me fera-t-on encore remarquer que je suis « une petite fille naïve » ?~
+@800082 = ~Ne le prenez pas mal Aerie, ce n'était pas un reproche mais bien un compliment.~
+@800083 = ~Un compliment ? Mais pourquoi ?~
+@800084 = ~C'est vrai, vous êtes l'incarnation de l'innocence. C'est justement votre côté naïf qui fait votre charme, qui fait que vous êtes ce qu'il y a de beau dans ce monde. (Aerie commence à rougir jusqu'aux oreilles, visiblement troublée) Vous faîtes partie de ce que je cherche à préserver dans un monde par ailleurs barbare. Si vous n'existiez pas, si le monde était si laid, pourquoi lutterions-nous ?~
+@800085 = ~Oh Hendak je... Je ne sais vraiment pas quoi dire.~
+@800086 = ~Ne dîtes rien Aerie, soyez toujours vous-même.~
+
+
+@800087 = ~Ces étoiles ne sont-elles pas superbes ?~  //LA SCENE SE PASSE DE NUIT
+@800088 = ~Vous avez raison. Où que l'on soit sur Toril, la beauté du ciel est toujours là. Ceci dit, il manque quelquechose par rapport au Val de Bise.~
+@800089 = ~Qu'est-ce donc ?~
+@800090 = ~Ce sont des traits de lumière qui parcourent le ciel, comme si de la poussière d'étoile tombait sur Toril. Je n'en n'ai jamais vu ailleurs que chez moi.~
+@800091 = ~Ce doit être magnifique !~
+@800092 = ~Ca l'est ! Il suffit que ces lumières apparaissent et l'atmosphère devient magique. Les Dieux nous offrent parfois de grands cadeaux. Si seulement...~
+@800093 = ~Vous reverrez votre terre Hendak, j'en suis sûre !~
+@800094 = ~J'aimerais qu'il en soit de même pour vous. Mais je vous ai entendu dire que c'était impossible.~
+@800095 = ~C'est vrai. Les Avariels ne m'accepteraient jamais. Je commence à me faire à l'idée vous savez. Et après tout, mon exil forcé sur la terre m'a permis de rencontrer des gens formidables !~
+@800096 = ~(Le barbare jette un regard attendri sur Aerie) Tous ne sont pas comme ça malheureusement. Mais vous avez choisi une bonne compagnie.~
+
+
+
+////ANOMEN
+
+@800097 = ~Vous me fixez d'un regard méprisant Anomen. Je n'aime pas cela.~
+@800098 = ~<CHARNAME> vous fait peut-être confiance, mais sachez qu'à mes yeux vous n'êtes qu'un vaurien. Votre place est dans cette cellule que vous n'auriez jamais du quitter.~
+@800099 = ~(Le barbare s'approche d'Anomen, ses yeux dévoilant sa colère contenue) Je suis un homme d'honneur et ne vous permettrai pas d'en douter !~
+@800100 = ~Peuh, et qu'est-ce qu'un rustre sans éducation connait de l'honneur ?~
+@800101 = ~Vous vous arrêtez donc aux apparences ? Vous auriez très bien pu être à ma place, obligé vous aussi de tuer des innocents.~
+@800102 = ~J'imagine que ça n'a pas du trop vous gêner de les mettre à mort. Vous les barbares, vous vous complaisez dans ces combats sanglants quelle qu'en soit la raison.~
+@800103 = ~(saisissant Anomen par le col) Je ne juge les gens que sur leurs actes, non sur leur naissance ou leur apparence. Vous vous prenez pour un héros ? Vous n'êtes qu'une caricature de chevalier, suivant vos caprices en prétendant agir pour la vertu !~
+@800104 = ~(se défaisant de la poigne d'Hendak) Bas les pattes maraud ou je vous jure que vous goûterez de ma lame !~
+@800105 = ~Ne me tentez pas Anomen, vous n'y survivriez pas.~
+
+
+@800106 = ~Et bien barbare, votre technique de combat est des plus impressionnantes. Quoique plutôt bestiale dans l'ensemble. Sérieusement, êtes-vous un humain ou un loup ?~
+@800107 = ~Que voulez-vous Anomen ?~
+@800108 = ~Je remarque simplement que vous semblez tenir plus de l'animal que de l'homme dans votre attitude. Je trouve cela vil de suivre ainsi ses plus bas instincts.~
+@800109 = ~Nous avons tous une part animale en nous Anomen, vous compris. Vous devriez la laisser s'exprimer un peu, ça vous détendrait.~
+@800110 = ~Je ne suis pas comme vous barbare ! Un homme bien éduqué ne s'abandonne pas à un tel comportement.~
+@800111 = ~Je ne suis pas la brute sans cervelle que vous imaginez Anomen. La rage est une force, une force très puissante. Elle m'a permis de survivre dans l'arène. Mal utilisée, elle avilit. Mais je ne vois aucune raison de ne pas utiliser cette puissance pour abattre des personnes malfaisantes.~
+@800112 = ~Oui et j'imagine qu'une fois enragé, vous massacrerez tout ce qui bouge autour de vous, amis ou ennemis. Je garderai un oeil sur vous au combat, histoire de protéger <CHARNAME> de votre fureur...~
+@800113 = ~Vous feriez bien mieux de vous concentrer sur l'ennemi. Plus vite il périra, plus vite je retrouverai mon calme.~
+
+
+@800114 = ~Hendak, puis-je vous dire un mot ?~  //UNE FOIS L'ACTE 2 TERMINE
+@800115 = ~Si ce n'est pas une nouvelle provocation alors oui.~
+@800116 = ~Au contraire je... Je tenais à m'excuser pour mon comportement passé. Je vous ai bien observé depuis le début de notre voyage et j'ai constaté que vous luttez avec acharnement contre les malfrats. Ces pirates, ces esclavagistes, si ce n'était votre façon de vous battre on pourrait croire que vous êtes envoyé par l'Ordre.~
+@800117 = ~Nous avons les mêmes ennemis Hendak, nous luttons côte à côte depuis le début. Vous m'avez souvent sauvé en combat tout comme j'ai pansé vos plaies. Alors... Même si je n'apprécie pas vos manières... Je souhaite que vous acceptiez mes excuses.~
+@800118 = ~Anomen, j'accepte vos excuses. Je ne vous ai jamais trouvé agréable mais au moins vous êtes loyal envers <CHARNAME>. J'ai souvent souhaité plonger ma lame dans votre coeur, je serais ravi de ne plus avoir à y songer.~
+@800119 = ~Allons boire un verre alors, désormais nous ne sommes plus ennemis. (Les 2 hommes se rapprochent et après une hésitation se donnent une brève accollade)~
+
+
+
+////CERND
+
+@800120 = ~Pourquoi me fixes-tu ainsi druide ?~
+@800121 = ~J'admets que je n'ai jamais rencontré de barbare avant toi. Mais j'ai beaucoup entendu parler de ton peuple et j'avoue avoir une certaine admiration.~
+@800122 = ~Tiens donc, et pourquoi ?~
+@800123 = ~Il me semble que de tous les humains peuplant Féérune, les barbares sont encore ceux qui vivent le plus en harmonie avec Mère Nature.~
+@800124 = ~Nous n'avons pourtant rien à voir avec les elfes.~
+@800125 = ~Certes, mais votre mode de vie n'entrave pas le cycle naturel. Vos constructions utilisent peu de matériaux, vous ne détruisez pas les forêts et ne prenez que les ressources dont vous avez besoin.~
+@800126 = ~Tu n'as qu'en partie raison. Si nous usons peu de ressources, c'est souvent parce-que nous les prenons de force à nos voisins.~
+@800127 = ~Mais cela aussi est dans votre nature. Telle la mousse recouvrant le chêne, vous subsitez en prenant sa force vitale mais sans jamais l'affaiblir jusqu'à le tuer. Et ainsi l'harmonie est respectée.~
+@800128 = ~Et bien... Si j'avais su que les combats sanglants participaient à l'harmonie...~
+
+
+@800129 = ~J'ai vu comment tu te battais Hendak, ta fureur est vraiment bestiale par moment.~
+@800130 = ~Est-ce une critique ?~
+@800131 = ~Au contraire, j'apprécie les humains qui retournent à leur vraie nature. Nous avons tous cette part animale en soi et la laisser s'exprimer comme tu le fais est dans l'ordre naturel des choses.~
+@800132 = ~Tu vas encore me dire que je suis « un druide dans l'âme » ?~
+@800133 = ~Je n'irais pas jusque là. Tu es plutôt comme l'ourse protégeant sa progéniture et...~
+@800134 = ~Cernd, je t'aime bien mais par pitié cesse de comparer mes actes à ceux d'animaux ou de végétaux. Je suis Hendak, fier barbare du Nord, voilà ce qu'il y a à dire sur moi.~
+@800135 = ~Bien. Mais je voudrais te reparler de ta rage de berserker. Nous ne sommes pas si différents toi et moi.~
+@800136 = ~Que veux-tu dire ?~
+@800137 = ~Tu as sans doute remarqué que je suis un lycanthrope. Je peux me métamorphoser à volonté en loup-garou ce qui me rend bien lus fort en combat.~
+@800138 = ~Je l'ai vu... et ne souhaite pas en parler.~
+@800139 = ~Pourquoi cela mon ami ?~
+@800140 = ~Et bien je... Nous, barbares, sommes très méfiants envers les changeurs de forme. Cela nous paraît surnaturel, magique si vous voulez. C'est une chose que nous n'apprécions guère.~
+@800141 = ~Je vois. La lycanthropie est pourtant partie intégrante du cycle naturel. Quoi qu'il en soit, tu n'as rien à craindre de moi Hendak, même lorsque je suis transformé.~
+@800142 = ~Oh je ne te crains pas ! Mais à présent je réfrénerai mon envie de te découper en rondelles en combat.~
+@800143 = ~Ha ha ha ! A... Attend... Tu étais sérieux ?~
+
+
+@800144 = ~Dis-moi Cernd, n'as-tu jamais été tenté de rejoindre les Druides de l'ombre ?~
+@800145 = ~Certes non Hendak ! Qu'est-ce qui te fait supposer un instant que j'aurais pu me ranger du côté de ceux qui se sont écartés de la vraie Voie ?~
+@800146 = ~Les Druides de l'ombre semblent lutter pour la nature de façon plus violente. Or tu semblais apprécier la violence de mon peuple, je me disais donc...~
+@800147 = ~C'est assez paradoxal en fait. Je suis pour l'équilibre entre l'Ordre et le Chaos. La violence fait partie du cycle naturel, mais ce n'est pas une raison pour en abuser. Les barbares font des incursions de temps en temps mais jamais constamment. Les Druides de l'Ombre, eux, sèment la mort partout.~
+@800148 = ~Pire ! Ils se servent des serviteurs de la Nature comme combattants, entraînant de pauvres animaux dans un conflit qui ne les concerne pas. Et en assaillant les villes au nom de la Nature, ils ne font que retourner la population contre cette dernière. Alors non, je ne ferai jamais partie de leur ordre.~
+@800149 = ~Très bien, charge toi de l'équilibre comme tu l'entends. Moi j'affronterai mes ennemis à ma manière.~
+
+
+
+////EDWIN
+
+@800150 = ~Je commence à avoir l'habitude d'être entouré de primates, mais tu dépasses tout ce que je connaissais en terme de comportement animal.~
+@800151 = ~Attention à tes paroles magicien. Je n'accepte d'insultes de personne et sûrement pas d'individus de ton espèce !~
+@800152 = ~Très intéressant, cet être primitif semble doué de la parole, démontrant un état semi-intelligent.~
+@800153 = ~Ne me prend pas pour un idiot mage ! Je ne suis peut-être pas accro aux livres comme toi mais je ne suis en rien un animal. Eloigne-toi de moi si tu ne veux pas finir en petits tas de chair sanglants.~
+@800154 = ~(Co... Comment ose-t-il ?) Ne me menace pas barbare ou je te fais rôtir comme... comme un poulet (oui, un poulet... avec des braises...).~
+@800155 = ~Ne me fais pas rire sorcier rouge, que feras-tu lorsque j'aurai encaissé ton premier sort et que je serai toujours debout pour te décapiter ?~
+@800156 = ~(Il ne pourrait quand même pas résister à mes sorts ?) Pauvre idiot, tu seras mort avant d'avoir pu bouger le petit doigt !~
+@800157 = ~Pour la dernière fois Edwin, VA-T-EN !~
+@800158 = ~(Mais c'est qu'il me donne des ordres) Espèce de singe mal éduqué ! Tu me paieras cet affront ! (Un jour... Oui... Je le brûlerai, je le disséquerai... Un jour...)~
+
+
+@800159 = ~Dis-moi barbare, j'imagine que pour toi le sens de l'honneur est important.~
+@800160 = ~Oui et je suis surpris que tu connaisses ce mot.~
+@800161 = ~Certes, et peux-tu alors me dire ce qu'il y avait d'honorable à tuer des innocents, privés de liberté, qui n'avaient certainement pas envie de se battre contre toi et tout cela pour le bon plaisir de quelques odieux spectateurs ? (Voyons voir ce qu'il va répondre à ça)~
+@800162 = ~Spectateurs dont tu faisais certainement partie sorcier ! Tu devrais donc savoir qu'on ne m'a pas laissé le choix.~
+@800163 = ~Oui bien sûr, j'imagine que ce genre d'excuses facilite le meurtre gratuit. Quand verra-t-on un barbare combattre pour une vraie cause, je me le demande...~
+@800164 = ~C'est notre mode de vie, nous ne respectons que ceux qui sont prêts à lutter de toutes leurs forces. Ceux que j'ai affrontés avaient autant de chances que moi et j'espère que leurs dieux les ont accueillis comme ils le méritent.~
+@800165 = ~Quel noble sentiment de ta part...~
+
+
+@800166 = ~Dis-moi si je me trompe sorcier, mais vises-tu vraiment l'ennemi de tes sorts en combat ? Je dois souvent encaisser les effets de ta magie et ça ne me plaît pas.~
+@800167 = ~Oh, ne le prend pas mal. Quand on lance des sorts d'une telle puissance, leurs effets ne peuvent être qu'étendus ! Mais j'imagine que tu n'entends rien à ces choses-là. (Il semble qu'il résiste plutôt bien aux sorts, ça ne va pas)~
+@800168 = ~Ma lame me semble émoussée. Pourrais-je en tester le tranchant sur ta gorge ?~
+@800169 = ~(Mais... C'est une menace) Ne m'approche pas !~
+@800170 = ~Haha ! On tremble de tous ses membres magicien ?~
+@800171 = ~Non c'est... C'est ton odeur qui me répugne. Tu sens la mort à 20 toises.~
+@800172 = ~Au moins je ne sens pas la vilenie et la trahison...~
+
+
+
+////BANTERS HAERDALIS
+
+@800173 = ~Dis-moi mon aigle majestueux, tu viens bien du Nord de Féérune ?~
+@800174 = ~Oui barde, je viens d'une région appelée Val de Bise si tu veux savoir.~
+@800175 = ~J'avoue connaître assez peu les terres du nord. Comment y est la vie ?~
+@800176 = ~Un peu plus rude qu'ici, le climat y est beaucoup plus froid. La terre ne peut être cultivée aussi mon peuple s'est-il tourné vers la chasse et la guerre. Nous prenons ce dont nous avons besoin à qui le possède mais il nous arrive aussi de commercer.~
+@800177 = ~Très intéressant. Et pratiquez-vous du théâtre aussi ?~
+@800178 = ~Pas vraiment, mais nous avons quelquechose qui s'en rapproche. Nous avons des gens un peu comme toi que nous nommons scaldes. Il nous chantent les épopées des guerriers héroïques d'autrefois et nous les écoutons tout en buvant de l'hydromel à volonté. Si le scalde a été performant, il partage le festin avec nous, sinon ça dégénère en querelle générale. Voilà comment on s'amuse chez nous !~
+@800179 = ~Il faudra vraiment que j'y fasse un tour un jour...~
+
+
+@800180 = ~Tu tournes beaucoup autour de moi barde... As-tu quelquechose à demander ?~
+@800181 = ~Je suis comme un papillon attiré par ta lumière mon rapace vigoureux. Ton histoire est vraiment passionnante.~
+@800182 = ~Je ne vois pas ce que la vie d'un ancien esclave a d'intéressant.~
+@800183 = ~Au contraire mon chasseur des airs, au contraire. D'abord libre, puis capturé par des mercenaires, emmené par des pirates, condamné à combattre chaque jour dans une arène pour sauver sa peau et finalement recouvrer la liberté et la goûter aux côté de <CHARNAME>... Il y a là de quoi faire une pièce de... Que dis-je une pièce, 3 pièces, une trilogie théâtrale !~
+@800184 = ~Le théâtre ne m'intéresse pas Haer'Dalis.~
+@800185 = ~Attend un peu, la première pièce parlera de ta vie au sein de ton peuple, ce sera « Hendak le barbare ». Ensuite je narrerai ta capture et ton esclavage dans « La descente aux enfers ». Et je conclus en apothéose avec l'intervention de <CHARNAME> et la reconnaissance que tu lui témoignes en l'accompagnant dans « Une nouvelle vie ».~
+@800186 = ~Amuse-toi bien...~
+
+
+@800187 = ~Ah mon aigle royal, voudrais-tu écouter les quelques vers que j'ai composés pour présenter ma future oeuvre ?~
+@800188 = ~Fais-le si tu y tiens.~
+@800189 = ~Oyez l'incroyable histoire d'un puissant guerrier
+Dont le destin le priva un jour de liberté,
+En une triste matinée par une Noire Compagnie
+Malgré sa férocité il fut pris.~
+@800190 = ~Alors pour sa survie il dut tuer
+Faisant un spectacle des vies qu'il prenait,
+Jusqu'au jour où de sa cage on le libéra
+Et alors le rapace s'envola.
+Depuis il chemine avec son sauveur
+Sa destinée s'écrivant au fil des heures...~
+@800191 = ~Ca m'a l'air assez bien résumé. J'imagine que la mise en scène des futures pièces sera une autre paire de manches.~
+@800192 = ~Ne t'inquiète pas pour cela. Continuons à marcher, la route m'inspire.~
+
+
+
+////IMOEN
+
+@800193 = ~J'ai... Un peu froid. Dis-moi beau barbare, tu me prêtes ta fourrure ?~
+@800194 = ~Imoen, cette fourrure est un souvenir d'enfance. Si je te la prête, il faudra me la rendre.~
+@800195 = ~Non mais dis donc, tu me prends pour une voleuse ?~
+@800196 = ~Et bien... Oui ! C'est bien ce que tu es non ?~
+@800197 = ~Hihi ! Et magicienne aussi. Et une Enfant de Bhaal. Cela ne t'inquiète donc pas ?~
+@800198 = ~Cela devrait ?~
+@800199 = ~(La jeune fille commence à faire la moue) Oh s'il te plaît, prête-moi ta fourrure. S'il te plaît s'il te plaît s'il te plaît !~
+@800200 = ~Imoen ça suffit ! Avec toutes les poches que tu as du faire, tu as certainement de quoi t'acheter une fourrure du même genre dans le premier magasin venu.~
+@800201 = ~Je l'aurai un jour, ça ne va pas se passer comme ça...~
+
+
+@800202 = ~(Alors que le groupe fait une pause, Imoen se glisse furtivement derrière Hendak et entreprend de lui ôter sa fourrure)~
+@800203 = ~(sentant qu'on lui tripote le cou) Mais qu'est-ce que ?~
+@800204 = ~(La jeune fille est parvenue à saisir l'écharpe du barbare et la brandit triomphalement) Elle est à moi, elle est à moi !~
+@800205 = ~Imoen ! Rend-moi cette fourrure tout de suite !~
+@800206 = ~(En guise de réponse, Imoen lui tire la langue tout en continuant de danser autour de lui, son trophée à la main)~
+@800207 = ~Je ne plaisante pas ! Ne m'oblige pas à la récupérer de force !~
+@800208 = ~(De plus en plus énervé, le barbare pousse un rugissement de rage. En réponse, la jeune Enfant de Bhaal rugit à son tour)~
+@800209 = ~Mais qu'est-ce que c'est que ce cirque ? Imoen, rend-lui son écharpe qu'on en finisse !
+
+(Vous voyez Imoen rendre sa fourrure à Hendak en pouffant de rire. Ce dernier semble d'abord énervé mais un sourire finit par se dessiner sur son visage et il rit à son tour) Maintenant que vous vous êtes bien amusés, on peut y aller ?~  //CHARNAME
+
+
+
+////JAHEIRA
+
+@800210 = ~Tu sembles soucieuse Jaheira. Qu'est-ce qui ne va pas ?~
+@800211 = ~Mes problèmes ne te concernent pas barbare.~
+@800212 = ~Pourquoi es-tu si froide druide ? Je voudrais juste comprendre pourquoi tu verses souvent des larmes au beau milieu de la nuit.~
+@800213 = ~Silence ! Je... Je ne souhaite pas en parler.~
+@800214 = ~Je sais ce qui est arrivé à ton mari Jaheira. Cela ne changera sûrement rien pour toi mais je suis sûr que les Dieux l'ont accueilli comme...~
+@800215 = ~Que comprends-tu de ces choses Hendak ? Tu as passé une bonne partie de ta vie enfermé et à ne sortir que pour tuer. Tu n'as reçu aucun enseignement, tu ne sais rien.~
+@800216 = ~Tu parles durement Jaheira mais tu as raison. Ce que je sais, j'ai du l'apprendre seul. Je... Je pense que tu as besoin d'être rassurée et je suis prêt à le faire.~
+@800217 = ~Me rassurer ? Et sur quoi ?~
+@800218 = ~Sur le sort de nos compagnons d'abord. Tant qu'Hendak se tiendra debout, ils vivront. Sur le sort de nos ennemis ensuite : ils paieront chers la mort de ton compagnon, je te le promets.~
+@800219 = ~Et bien... Merci Hendak.~
+
+
+@800220 = ~Dis-moi Hendak, à présent que tu es libre, qu'est-ce qui te pousse à suivre <CHARNAME> ?~
+@800221 = ~Je lui dois la liberté. J'ai une dette d'honneur envers lui.~
+@800222 = ~Mais à quoi te sert cette liberté nouvelle si tu restes à nous suivre ?~
+@800223 = ~Je n'ai pas l'habitude de parcourir les chemins. Je suis fort et vaillant mais seul dans un pays inconnu je n'irais pas bien loin. A part finir mercenaire dans une compagnie quelconque... Au moins avec <CHARNAME> j'ai le sentiment que je verrai du pays !~
+@800224 = ~Là tu as entièrement raison.~
+@800225 = ~Qui sait ? Peut-être retrouverai-je les miens un jour...~
+
+
+@800226 = ~Notre dernier combat semble t'avoir valu de sérieuses blessures Hendak. Fais-moi voir ça.~
+@800227 = ~Tout va bien Jaheira, vraiment.~
+@800228 = ~Ne sois pas stupide ! Je sais que les barbares savent encaisser les coups mais toute créature du cycle naturel a besoin de se régénérer. Et cela demande des soins et du repos.~
+@800229 = ~Et qui vengera nos amis tombés pendant que nous dormons ?~
+@800230 = ~Certainement pas toi si tu meurs des suites de tes blessures. Ne fais pas l'enfant. (Jaheira retrousse la manche du barbare et examine une sévère entaille sur son bras. Sortant un baume fait de diverses baies, elle commence à l'appliquer sur la plaie)~
+@800231 = ~(grince les dents) Ca... y est? Tu as.... fini ?~
+@800232 = ~Il faut laisser cicatriser. Tu devrais éviter d'utiliser ton bras pour le moment.~
+@800233 = ~Génial... Je vais devoir me battre à une main...~
+
+
+
+////KELDORN
+
+@800234 = ~Connaissant votre passé Hendak, je suis étonné que votre coeur soit resté pur.~
+@800235 = ~Que voulez-vous dire ? Que les gladiateurs doivent obligatoirement devenir mauvais ?~
+@800236 = ~Et bien... Avouez que ce que vous avez vécu peut en faire basculer plus d'un du mauvais côté. Après tout, n'avez-vous pas appris à tuer sans états d'âme ?~
+@800237 = ~Vous savez que je n'avais pas le choix. J'ai tué pour survivre.~
+@800238 = ~Je sais. Les animaux aussi luttent pour se défendre. Mais vous êtes un homme Hendak, vous savez que les gens qui vous faisaient face étaient innocents. Comment avez-vous réussi à tenir, à supporter tout cela ?~
+@800239 = ~Après chaque combat, je m'efforçais de soigner mes compagnons blessés. Et j'ai beaucoup prié. Je n'étais pourtant pas croyant quand j'étais plus jeune mais la foi est venue lorsque j'en ai eu besoin. J'ai prié les Dieux d'accueillir mes adversaires et de punir ces odieux esclavagistes et spectateurs.~
+@800240 = ~Et vos prières ont été exaucées... Rassurez-vous Hendak, vous êtes sur une bonne voie et je vous aiderai à la tenir.~
+
+
+@800241 = ~Hendak, je vous vois souvent plein de colère au combat.~
+@800242 = ~Oui, nous autres barbares cultivons notre rage intérieure pour mieux la faire ressortir le moment venu. Pourquoi croyez-vous que beaucoup de peuples nous redoutent?~
+@800243 = ~Votre technique de combat est certes des plus impressionnantes ! Mais prenez garde à ce qu'elle ne vous submerge.~
+@800244 = ~Craignez-vous de recevoir un coup par erreur ? Vous savez Keldorn, je sais distinguer mes amis et mes ennemis.~
+@800245 = ~Oui, pour le moment. Mais plus vous devenez puissant, plus cette fureur que vous avez en vous va grandir et peut-être au final vous pousser à faire quelquechose que vous regretteriez. Faîtes attention mon ami.~
+@800246 = ~Ne vous en faîtes pas pour moi chevalier. Le sens de l'honneur chez les barbares est sacré. Jamais je n'oserai lever la main sur l'homme à qui je dois la liberté. Ni sur un homme de valeur tel que vous bien sûr !~~Ne vous en faîtes pas pour moi chevalier. Le sens de l'honneur chez les barbares est sacré. Jamais je n'oserai lever la main sur la femme à qui je dois la liberté. Ni sur un homme de valeur tel que vous bien sûr !~
+@800247 = ~Que les Dieux continuent à veiller sur vous. Allons, reprenons la route.~
+
+
+@800248 = ~Keldorn, vous m'avez l'air assez âgé. Qu'est-ce qui vous pousse à parcourir les routes avec nous ?~
+@800249 = ~Vous vous imaginez sans doute que je vais poser mon épée maintenant ? Le mal ne se repose jamais. Il faut rester vigilant et la meilleure vigilance consiste encore à parcourir les chemins comme vous dîtes.~
+@800250 = ~C'est un objectif bien noble. Mais je pense que vous faîtes une erreur.~
+@800251 = ~Qu'est-ce qui vous fait dire ça ?~
+@800252 = ~Pour ma part, j'ai promis mon aide à <CHARNAME> mais dès que ce sera fini, je retournerai chez moi dans le Nord. Il faut garder le lien avec les gens qu'on aime. Depuis combien de temps n'avez-vous pas vu votre famille Keldorn ?~
+@800253 = ~Je...~
+@800254 = ~J'aimerais voir grandir mes enfants. Mais je veux aussi qu'ils soient en sécurité. Pour l'instant ma place est ici, à affronter le mal sous toutes ses formes. Mais comme vous je compte bien rejoindre les miens une fois ce voyage terminé.~
+
+
+////KORGAN
+
+@800255 = ~Dis-moi grand gaillard, t'es sacrément balaise. Et quand tu t'bats, la bave aux lèvres et l'oeil rouge sang, t'as d'quoi ficher les chocottes à n'importe laquelle d'ces femmelettes qui nous accompagnent. Sans déconner, t'aurais pas un nain dans ta famille ?~
+@800256 = ~Je vais te décevoir alors... Non, je n'ai aucun nain dans ma famille, ni même dans tout mon village. Tu sais Korgan, ton peuple n'est pas le seul à avoir du lutter pour sa survie.~
+@800257 = ~Har har, j'm'en doute ! N'empêche, y a pas grand monde qui nous arrive à la cheville quand il s'agit de baston.~
+@800258 = ~Alors c'est que tu n'as pas vu le Nord. Le climat y est rude, les hommes doivent être forts pour survivre. Le combat est notre mode de vie.~
+@800259 = ~C'est comme moi ! Quel plaisir de repeindre ma hache avec le sang d'mes victimes...~
+@800260 = ~Je... n'aime pas trop ta façon de voir les choses. Nous, barbares, avons un certain sens de l'honneur. Nous respectons la force, mais nous préférons ceux qui savent la contrôler à ceux qui tuent pour rien. Certains des miens aiment le meurtre mais en ce qui me concerne, je préfère que ces morts ne soient pas inutiles.~
+@800261 = ~Alors c'est qu't'as rien pigé malgré tout l'temps qu't'a passé à castagner ces idiots à la Couronne. T'as p't-être des gros bras mais rien dans l'ciboulot ! J'ai plus envie d'causer tiens !~
+
+
+@800262 = ~Dis l'balaise, j'me posais une question.~
+@800263 = ~Alors le nain, je croyais que tu m'parlais plus.~
+@800264 = ~J'change d'avis quand ça m'chante mon gars.~
+@800265 = ~Et que veux-tu savoir ?~
+@800266 = ~Ben une fois à la Couronne, j'ai loupé un combat car j'devais m'vider la vessie. J'aurais bien pissé dans l'arène mais paraît qu'ça plaisait pas aux chiffes molles qui r'gardaient à côté. Bref, y m'ont viré au moment où t'entrais en scène.~
+@800267 = ~Korgan, je n'aime pas parler de cette période-là.~
+@800268 = ~J'veux savoir c'qui s'est passé. Ils t'avaient filé qu'une épée et un bouclier de bois et ils ont lâché des saloperies d'hommes-bêtes.~
+@800269 = ~Des loups-garous, je m'en souviens... C'avait été un de mes combats les plus difficiles. Je crois que Lehtinan voulait se débarrasser de moi ce jour-là car j'avais tenté une évasion. Mais après mon succès, j'ai tellement plu aux spectateurs qu'il a bien été obligé de me garder.~
+@800270 = ~Ouais, c'est vrai qu'tu t'es fait une sacrée réputation cette fois. Mais j'veux savoir comment t'as bousillé ces bestioles. Raconte à ton pote Korgan.~
+@800271 = ~J'ai rassemblé toute ma colère et j'ai poussé un grand hurlement. Ca n'a eu aucun effet sur les loups-garous mais je me suis senti plus fort que jamais. J'ai jeté mon bouclier à la tête du premier d'entre eux et avant qu'il n'ait réalisé, je lui plantais mon épée dans l'oeil. La lame a traversé toute sa tête.~
+@800272 = ~Har, j'aurais aimé voir ça ! Continue.~
+@800273 = ~Les deux autres se sont jetés sur moi mais j'utilisais le corps de leur compagnon comme bouclier. J'ai frappé à plusieurs reprises dans le vide et ma lame a fini par percer l'estomac du second. Le troisième m'a alors pris par derrière et a failli m'arracher le bras d'un coup de griffe (Hendak soulève sa chemise, dévoilant une grande cicatrice sur son épaule gauche).~
+@800274 = ~J'étais dans un tel état de rage que je n'ai pas senti la douleur. Je me suis simplement retourné et lui ai tranché la patte d'un seul coup d'épée. Il a rugi, bondi en arrière, je me suis avancé vers lui et... Je pense que tu peux imaginer la fin.~
+@800275 = ~Ah mon gars, heureusement qu't'es là pour donner à mes oreilles de si bonnes histoires ! C'est pas ces mauviettes qui en diraient autant !~
+
+
+@800276 = ~Tu as quelquechose à me demander Korgan ?~
+@800277 = ~Ben honnêtement, t'es l'gars le plus fort que j'connaisse parmi tous ces hauts sur pattes. Et j'me demande si tu s'rais pas aussi fort que moi.~
+@800278 = ~Je pense être plus fort si tu veux mon avis.~
+@800279 = ~Ah ouais ? On va voir ça.~
+@800280 = ~Qu'est-ce que  tu veux ? Te battre ?~
+@800281 = ~Ca m'démange mais j't'aime bien et puis j'crois pas ça vaille le coup d'abimer nos armes sur autre chose que les chochottes qui nous font face. Faisons plutôt un bras de fer !~
+@800282 = ~Si ça t'amuse... (Les 2 hommes s'assoient alors, se faisant face et entament leur partie de bras de fer. Au bout d'une minute, personne ne semble prendre l'avantage bien que de grosses gouttes de sueur coulent sur chaque bras) Tu vas perdre gringalet !~
+@800283 = ~Garde ta salive pour gémir quand j't'aurai battu p'tite tête !~
+@800284 = ~Hendak, on a mieux à faire !~ //CHARNAME
+@800285 = ~Oui <CHARNAME> ? (Korgan abat violemment sa main)~
+@800286 = ~Je l'savais ! J't'ai battu malgré tes gros bras !~
+@800289 = ~J'ai été déconcentré ! Mais j't'aurais au concours de boisson, tu t'effondreras avant moi.~
+@800290 = ~Pari tenu !~
+@800291 = ~Korgan, on vous attend !~ //CHARNAME
+@800292 = ~Qu'est-ce que tu m'dis môme ? (Hendak abat aussitôt sa main)~
+@800293 = ~Je t'avais bien dit que j'étais le plus fort.~
+@800294 = ~Tu m'as eu par surprise saligaud ! Mais j'te parie que j'm'enfile plus de pintes que toi.~
+@800295 = ~Tenu !~
+
+
+
+////MAZZY
+
+@800296 = ~Dîtes-moi Mazzy, qu'est-ce qui vous a poussé à devenir combattante ?~
+@800297 = ~Vous aussi vous vous y mettez Hendak ? Honnêtement je suis fatiguée d'avoir à supporter ces préjugés. Sous prétexte que je suis une petite-personne je ne devrais pas me battre ?~
+@800298 = ~Ne le prenez pas ainsi. Je n'ai pas dit que vous ne deviez pas lutter, je vous demande juste vos motivations. J'ai appris à me battre car c'est dans notre mode de vie mais vous les Petites-Gens avez en général d'autres passe-temps.~
+@800299 = ~Si vous tenez à le savoir, je ne suis pas restée cloîtrée à profiter du bon temps. Je voyais bien ce qui se tramait hors de chez moi et j'ai décidé d'affronter le Mal. Peu importe ce qu'en pensent les autres, j'ai choisi ma voie et ne le regrette pour rien au monde !~
+@800300 = ~J'en suis heureux pour vous. La vie d'aventures n'a rien de facile...~
+
+
+@800301 = ~Hendak, vous êtes plein de contradictions.~
+@800302 = ~Je ne comprends pas bien ce que vous voulez dire.~
+@800303 = ~Vous êtes plutôt bien habillé, vous luttez à nos côtés pour faire triompher le Bien mais malgré tout vous avez des manières de rustre au combat. Pourquoi ?~
+@800304 = ~C'est notre façon de faire. Depuis mon plus jeune âge j'ai appris à me mettre en colère et à en tirer toute ma force. C'est efficace, croyez-moi !~
+@800305 = ~Je n'en doute pas. Mais vous pourriez être tellement plus... Un homme de votre bravoure pourrait aisément devenir paladin.~
+@800306 = ~Cela ne m'intéresse pas. Je ne suis pas prêt de renoncer à tout ce que j'ai appris. Je suis libre, libre de mes actions et je ne me dévoue qu'aux causes qui me plaisent. Jamais je ne pourrai ni ne voudrai montrer le dévouement qu'ont les Chevaliers de l'Ordre.~
+@800307 = ~Quel dommage... Vous devriez y réfléchir tout de même.~
+
+
+@800308 = ~Mazzy, d'où vous viennent vos talents magiques ?~
+@800309 = ~Oh, ces quelques sorts mineurs m'ont été conférés par Arvoreen. En remerciement pour ma foi.~
+@800310 = ~Très utile, mais je suis certain que vous pouvez vous en passer.~
+@800311 = ~Bien sûr ! J'ai du faire mes preuves comme combattante avant de mériter ces dons et je suis toujours capable de me battre en ne comptant que sur ma force. Mais pourquoi refuserais-je un présent d'Arvoreen ?~
+@800312 = ~J'aimerais m'entraîner contre vous à la prochaine halte. Je ne deviendrai pas berserker et vous n'utiliserez pas vos talents. Qu'en dîtes-vous ?~
+@800313 = ~J'en dis que je vous mettrai à terre avant que vous n'ayiez compris ce qui vous arrive.~
+@800314 = ~(riant) Oui, peut-être bien. Si vous y parvenez je vous offre pour un mois de bière du dragon.~
+@800315 = ~Mais que diantre voulez-vous que je fasse d'un tel cadeau ?~
+
+
+
+////MINSC
+
+@800316 = ~Alors comme ça Minsc, tu viens de Rashemenie ?~
+@800317 = ~Oui ! C'est un très beau pays mais bien loin d'ici. Hélas, Minsc ne peut y retourner sans sa sorcière...~
+@800318 = ~Nous vengerons Dynaheir mon ami. Tu pourras rentrer chez toi la tête haute !~
+@800319 = ~Tu es un barbare aussi mais je n'ai jamais entendu parler de toi. D'où viens-tu ?~
+@800320 = ~De Valbise, c'est assez loin dans le nord. J'ai déjà entendu parler des fameux berserkers rashmènes mais tu es le premier que je rencontre en vrai. Nos cultures ne sont pas si différentes.~
+@800321 = ~Oui, tu es un grand combattant et Minsc a beaucoup d'estime pour toi. Mais il te manque quelquechose.~
+@800322 = ~Quoi donc ?~
+@800323 = ~Un compagnon. Tu as beau être fort, comment peux-tu botter les fesses du Mal si tu leur tourne le dos ?~
+@800324 = ~Où veux-tu en venir ?~
+@800325 = ~L'ennemi est fourbe, il peut te frapper dans le dos. Heureusement, Bouh est là pour mettre Minsc en garde et lui indiquer ou frapper. Il te faudrait une sorte de Bouh pour te guider.~
+@800326 = ~Oh et bien... J'avais bien un chien quand j'étais enfant mais...~
+@800327 = ~Bouh n'aime pas trop les chiens. Mais comme ils font fuir les chats, il tolère leur présence. Attend un instant. (Minsc sort son hamster de son sac et lui murmure quelques mots) Bouh est d'accord pour que tu aies un chien !~
+@800328 = ~Je ne veux pas prendre de chien tout de suite. Mais remercie Bouh pour moi.~
+
+
+
+@800329 = ~Hendak, Bouh se pose une question.~
+@800330 = ~Moi aussi je m'en pose une. Comment connais-tu le langage des hamsters ?~
+@800331 = ~Oh mais Bouh n'est pas un hamster ordinaire ! C'est un hamster géant...~
+@800332 = ~... de l'espace miniature, je sais, j'ai déjà entendu ça. Et ça le rend plus facile à comprendre ?~
+@800333 = ~Bien sûr, tu n'as qu'à lui parler. (Minsc sort Bouh et le place dans sa paume) Dis quelquechose Bouh.~
+@800334 = ~Désolé, je n'entends qu'un couinement.~
+@800335 = ~C'est parce-que tu refuses de voir la vérité. Tu vois Bouh comme un hamster ordinaire donc tu l'entends couiner comme les autres hamsters.~
+@800336 = ~Oui, c'est sûrement ça... Quelle était sa question au juste ?~
+@800337 = ~Oh euh... Minsc a oublié. Et Bouh ne veut pas le répéter. Il a beau être petit, il a son caractère.~
+
+
+
+@800338 = ~Minsc, avec tous ces combats, ne crains-tu pas pour la vie de Bouh ?~
+@800339 = ~Bouh est extraordinaire. Il peut se sortir de toutes les situations. Minsc lui a même appris à attaquer les yeux alors tu vois, tu n'as pas à t'en faire. Sauf si tu es un ennemi de Bouh.~
+@800340 = ~Je resterai de son côté alors, je ne tiens pas à perdre mes yeux... Il ne m'en voudras pas si je terrasse plus d'ennemis que lui ?~
+@800341 = ~Non, Bouh est très partageur, il ne veut pas s'attirer toute la gloire pour lui.~
+@800342 = ~Héhé, prenez garde vilains, Minsc, Bouh et Hendak vont vous botter le train !~
+@800343 = ~Voilà qui ce qui s'appelle parler comme un vrai guerrier !~
+
+
+////VALYGAR
+
+@800344 = ~J'ai entendu votre histoire Valygar. Nous avons beaucoup en commun vous savez.~
+@800345 = ~Vous croyez ?~
+@800346 = ~J'ai tout autant que vous soif de vengeance et je n'aime pas la magie, quelque soit sa forme.~
+@800347 = ~En cela je ne peux que vous donner raison. J'apprécie votre vision des choses Hendak mais même si je partage vos vues, je ne souhaite pas discuter.~
+@800348 = ~Pourquoi donc ? J'aime connaître mes compagnons.~
+@800349 = ~Le silence est un comportement que j'ai fait mien. Comment pouvez-vous espérer échapper aux Mages Cagoulés, traquer des brigands dans les bois ou faire votre service d'éclaireur si vous faîtes autant de bruit qu'une armée en campagne ?~
+@800350 = ~C'est vrai. Je vais vous laisser alors.~
+@800351 = ~Oh vous pouvez marcher à mes côtés... Silencieusement.~
+
+
+
+@800352 = ~Pssst, Hendak.~
+@800353 = ~Oui ?~
+@800354 = ~chuchotant) Moins fort ! Venez voir un peu par ici. (Le barbare se place aux côtés de Valygar) Regardez !~
+@800355 = ~(Ecartant quelques feuilles d'un buisson, les 2 hommes observent une jeune biche allaitant son petit) C'est un joli spectacle à n'en pas douter.~
+@800356 = ~Je préfère de loin les charmants tableaux que nous offre la Nature à toutes ces dicussions stériles. Le calme des bois ne me tape pas sur le système lui, vous comprenez ?~
+@800357 = ~Oui. Cet endroit a quelquechose de reposant. Mais je préfère quand même l'action.~
+@800358 = ~Profitez de cet instant, l'action viendra bien assez vite en suivant <CHARNAME>.~
+
+
+@800359 = ~J'ai tué Lavok et accompli ma vengeance... Elle ne m'a apporté aucune joie. Qu'en est-il pour vous Hendak ?~
+@800360 = ~J'ai un certain plaisir à avoir expédié mes ennemis dans les abysses mais cela ne m'a toujours pas rendu mon épouse et mon fils. Ils me manquent...~
+@800361 = ~Nous sommes passés par les mêmes épreuves mais nous ne finirons pas nécessairement de la même manière. Ma lignée s'éteindra avec moi et ce sera pour le mieux. Quant à vous, j'espère que vous retrouverez votre famille.~
+@800362 = ~Vous devriez songer à fonder une famille aussi Valygar. Après tout, vous avez mis fin à votre malédiction, il n'y a aucune raison de craindre pour vos enfants et je suis sûr que cela vous rendrait plus souriant.~
+@800363 = ~Je... Je dois dire que je n'y ai pas réfléchi. Peut-être... Quand tout ça sera terminé, si je rencontre une femme... Nous verrons bien.~
+
+
+
+////VICONIA
+
+@800364 = ~Et bien beau barbare, on reste seul ?~
+@800365 = ~Que me veux-tu elfe noire ?~
+@800366 = ~Je veux juste admirer ton corps, caresser des yeux chacun de tes muscles...~
+@800367 = ~Merci Viconia, mais où veux-tu en venir ?~
+@800368 = ~Nous elfes noirs sommes passés maîtres dans les arts érotiques. Peut-être souhaites-tu devenir mon esclave charnel ?~
+@800369 = ~Je n'ai pas l'habitude que l'on soit aussi direct avec moi Viconia. En général, c'est moi qui décide de mon plaisir.~
+@800370 = ~Et que connais-tu du plaisir jaluk ? Tu n'as jamais fréquenté une femme comme moi.~
+@800371 = ~En amour comme pour le reste, je ne peux accepter qu'on me tienne en laisse. J'ai déjà subi suffisament d'esclavage pour le restant de mes jours.~
+@800372 = ~Pauvre ignorant, tu changerais vite d'avis si tu avais la moindre idée de ce que j'ai à t'offrir...~
+
+
+@800373 = ~Alors Hendak, as-tu réfléchi à ma proposition ?~
+@800374 = ~Ne m'approche pas Viconia, tu es très belle mais je ne veux pas passer mes nuits à faire tes quatre volontés.~
+@800375 = ~Serais-tu un lâche ? Allons, pour toi qui as connu l'asservissement, ce sera facile de t'adapter.~
+@800376 = ~Ferme-la ! Je ne serai jamais ton objet ou quoi que ce soit que tu veuilles faire de moi ! Et tu oublies un peu vite que j'ai une épouse.~
+@800377 = ~Nous y voilà, la vraie raison de ton refus. Réfléchis donc un peu, depuis le temps que tu es absent cette chienne a sûrement mis le grappin sur un autre homme.~
+@800378 = ~(menaçant) Ne reparle jamais de ma femme ainsi, jamais !~
+@800379 = ~Vous les surfaçins êtes tous les mêmes. Pathétiques et profondément ennuyeux ! Au fond je ne perds rien.~
+
+
+@800380 = ~Tu empestes de partout. Ce qui confirme que les barbares sont des sauvages dépourvus de tout savoir-vivre.~
+@800381 = ~Ecoute elfe noire, ce n'est pas parce-que je me suis refusé à toi que tu peux t'autoriser à m'insulter.~
+@800382 = ~Ce que tu peux être nombriliste abbil, crois-tu vraiment que j'attache une quelconque importance à un modeste mâle ? Ce que je dis est vrai, regarde-toi dans un miroir !~
+@800383 = ~Ces derniers temps je n'ai pu que me baigner dans un ruisseau. C'est aussi ton cas il me semble alors retiens tes paroles.~
+@800384 = ~Toujours aussi aimable. Mais que pouvais-je attendre d'autre d'un berserker ?~
+
+
+
+////YOSHIMO
+
+@800385 = ~Dis-moi mon fier ami, comment un homme aussi costaud que toi a-t-il été capturé ?~
+@800386 = ~Ce n'est pas vraiment un sujet que j'aime aborder, surtout avec un chasseur de primes.~
+@800387 = ~Je ne suis pas ton ennemi, tu peux me parler sans crainte.~
+@800388 = ~Ce sont justement des chasseurs de prime qui m'ont capturé Yoshimo. Tu comprendras donc ma méfiance à ton sujet. Ils m'ont eu par traîtrise et se sont mis à six contre moi. Je n'ai rien pu faire.~
+@800389 = ~Ca ne m'étonne pas. Si je ne travaillais pas en solitaire, j'aurais sûrement fait de même pour capturer quelqu'un de ton acabit.~
+@800390 = ~En tout cas tu ne captureras aucun innocent tant que je serai là voleur. Est-ce bien clair ?~
+@800391 = ~Bien sûr mon ami, ne t'énerve pas.~
+
+
+@800392 = ~Yoshimo, je ne connais aucun Kara-Turien en-dehors de toi. Il paraît que ton pays est situé très loin, là où le soleil nait.~
+@800393 = ~C'est effectivement un des noms donnés à mon pays. J'ai parcouru une longue route pour venir jusqu'ici.~
+@800394 = ~Connaissant tes talents, tu as du t'en sortir sans trop de peine... Mais comment t'es-tu fait ta réputation à Athkatla ?~
+@800395 = ~En travaillant tout seul. Il n'y a pas mieux pour se faire un nom que de faire concurrence aux Voleurs de l'Ombre. Mais ça peut aussi être risqué...~
+
+
+
+
+
+
+
+
+////////ENTREES JOURNAL
+
+@900000 = ~Libérer Hendak et les esclaves.
+
+J'ai porté un sérieux coup aux esclavagistes d'Athkatla en libérant Hendak et les autres gladiateurs de leur prison à la Couronne de Cuivre, ainsi que les enfants d'esclaves dans leurs quartiers des bas-fonds. Hendak a décidé de rejoindre mon groupe et suggère que nous retournions au repaire des esclavagistes pour savoir qui les fournit.~
+

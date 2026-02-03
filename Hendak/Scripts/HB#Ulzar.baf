@@ -1,0 +1,11 @@
+IF
+
+      Allegiance(Myself,ENEMY)
+      Global("HB#CombatU","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+
+      ReallyForceSpell(Myself,KENSAI_KIA)
+      SetGlobal("HB#CombatU","GLOBAL",1)
+END

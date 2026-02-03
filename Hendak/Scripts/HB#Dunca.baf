@@ -1,0 +1,13 @@
+//ARKANIS GATH ATTAQUE LE JOUEUR S'IL TUE DUNCAN SANS S'ETRE ALLIE A BODHI
+
+IF
+	Allegiance(Myself,ENEMY)
+	Global("WorkingForBodhi","GLOBAL",0)
+	Detect([PC])
+	Delay(1)
+	Global("ArkanisComes","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ArkanisComes","GLOBAL",1)
+		CreateCreatureObject("STDEATH",Player1,0,0,0) // Arkanis Gath
+END
