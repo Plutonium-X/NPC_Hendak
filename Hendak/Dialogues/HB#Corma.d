@@ -1,0 +1,6 @@
+BEGIN ~HB#Corma~
+
+IF ~~ THEN BEGIN Merci
+SAY @700105
+IF ~~ THEN EXIT
+END
