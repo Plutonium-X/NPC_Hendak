@@ -4,7 +4,7 @@ Vous pourrez le recruter après la quête des exclavagistes.
 
 Particularités :
 - Caractéristiques : FOR 18/48, DEX 16, CON 17, INT 10, SAG 6, CHA 12.  
-- 80% de résistane au froid. 
+- 80% de résistance au froid. 
 - Ce mod inclut de nombreuses choses :  
   * plusieurs banters avec chaque compagnon de Bioware.
   * des interjections avec un grand nombre de PNJs non recrutables.
