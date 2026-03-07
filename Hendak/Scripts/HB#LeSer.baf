@@ -8,7 +8,7 @@ IF
 THEN
     RESPONSE #100
 
-      ReallyForceSpell(Myself,ASSASSIN_POISON)
+      ReallyForceSpellRES("spcl422",Myself)
       SetGlobal("HB#Pirates","GLOBAL",7)
 END
 
@@ -66,7 +66,7 @@ IF
 THEN
     RESPONSE #100
       ReallyForceSpell(Myself,WIZARD_SUMMON_DJINNI)
-      ReallyForceSpell(Myself,ASSASSIN_POISON)
+      ReallyForceSpellRES("spcl422",Myself)
       SetGlobal("HB#Poursuite","GLOBAL",12)
 END
 
