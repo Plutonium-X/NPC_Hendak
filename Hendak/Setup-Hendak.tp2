@@ -31,6 +31,10 @@ LANGUAGE ~Francais~
 	 ~french~
 	 ~Hendak/Translation/French/Setup.tra~
 
+LANGUAGE ~Schinese~
+	 ~schinese~
+	 ~Hendak/Translation/schinese/Setup.tra~
+
 BEGIN @0
 
 REQUIRE_FILE ~data/25dialog.bif~ ~Le programme ne détecte pas Throne Of Bhaal. L'expansion Throne Of Bhaal doit être installé pour permettre l'installation de Hendak le barbare.~
@@ -74,20 +78,20 @@ AT_INTERACTIVE_UNINSTALL ~Hendak/Sounds/Audiouninstall.bat~
 
 // Avant recrutement
 COMPILE ~Hendak/Dialogues/HB#Henda.d~
-    USING ~Hendak/Translation/French/HB#Henda.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 
 // Après recrutement
 COMPILE ~Hendak/Dialogues/HB#HendJ.d~
-    USING ~Hendak/Translation/French/HB#Henda.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 // Banters
 COMPILE ~Hendak/Dialogues/HB#HendB.d~
-    USING ~Hendak/Translation/French/HB#Henda.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 // Dialogues avec Charname
 COMPILE ~Hendak/Dialogues/HB#HendR.d~
-    USING ~Hendak/Translation/French/HB#Henda.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 // Scripts
 COMPILE ~Hendak/Scripts/HB#Henda.baf~
-    USING ~Hendak/Translations/French/HB#Henda.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 
 
 
@@ -103,7 +107,7 @@ COPY ~HENDAK/Creatures/HB#Ben.cre~ ~override~
 SAY NAME1 @21
 SAY NAME2 @21
 COMPILE ~Hendak/Dialogues/HB#Ben.d~ ~override~
-    USING ~Hendak/Translation/French/HB#Ben.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Ben.tra~
 COMPILE ~Hendak/Scripts/HB#Ben.baf~
 
 // Duncan
@@ -112,7 +116,7 @@ COPY ~HENDAK/Creatures/HB#Dunca.cre~ ~override~
 SAY NAME1 @22
 SAY NAME2 @22
 COMPILE ~Hendak/Dialogues/HB#Dunca.d~ ~override~
-    USING ~Hendak/Translation/French/HB#Dunca.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Dunca.tra~
 COMPILE ~Hendak/Scripts/HB#Dunca.baf~
 
 // Le Serpent
@@ -121,9 +125,9 @@ COPY ~HENDAK/Creatures/HB#LeSer.cre~ ~override~
 SAY NAME1 @20
 SAY NAME2 @20
 COMPILE ~Hendak/Dialogues/HB#LeSer.d~ ~override~
-    USING ~Hendak/Translation/French/HB#LeSer.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#LeSer.tra~
 COMPILE ~Hendak/Scripts/HB#LeSer.baf~
-    USING ~Hendak/Translation/French/HB#LeSer.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#LeSer.tra~
 
 // Smee
 
@@ -131,9 +135,9 @@ COPY ~HENDAK/Creatures/HB#Smee.cre~ ~override~
 SAY NAME1 @23
 SAY NAME2 @23
 COMPILE ~Hendak/Dialogues/HB#Smee.d~ ~override~
-    USING ~Hendak/Translation/French/HB#Smee.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Smee.tra~
 COMPILE ~Hendak/Scripts/HB#Smee.baf~
-        USING ~Hendak/Translation/French/HB#Smee.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Smee.tra~
 
 //Pirates
 
@@ -170,7 +174,7 @@ COPY ~Hendak/Creatures/HB#Ania.cre~ ~override~
 SAY NAME1 @27
 SAY NAME2 @27
 COMPILE ~Hendak/Dialogues/HB#Ania.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Ania.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Ania.tra~
 COMPILE ~Hendak/Scripts/HB#Ania.baf~
 
 
@@ -178,7 +182,7 @@ COPY ~Hendak/Creatures/HB#Kelsh.cre~ ~override~
 SAY NAME1 @28
 SAY NAME2 @28
 COMPILE ~Hendak/Dialogues/HB#Kelsh.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Kelsh.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Kelsh.tra~
 COMPILE ~Hendak/Scripts/HB#Kelsh.baf~
 
 
@@ -186,7 +190,7 @@ COPY ~Hendak/Creatures/HB#Krod.cre~ ~override~
 SAY NAME1 @29
 SAY NAME2 @29
 COMPILE ~Hendak/Dialogues/HB#Krod.d~ ~override~
-    USING ~Hendak/Translation/French/HB#Krod.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#Krod.tra~
 COMPILE ~Hendak/Scripts/HB#Krod.baf~
 
 
@@ -194,7 +198,7 @@ COPY ~Hendak/Creatures/HB#Minta.cre~ ~override~
 SAY NAME1 @30
 SAY NAME2 @30
 COMPILE ~Hendak/Dialogues/HB#Minta.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Minta.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Minta.tra~
 COMPILE ~Hendak/Scripts/HB#Minta.baf~
 
 
@@ -202,7 +206,7 @@ COPY ~Hendak/Creatures/HB#Ulzar.cre~ ~override~
 SAY NAME1 @31
 SAY NAME2 @31
 COMPILE ~Hendak/Dialogues/HB#Ulzar.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Ulzar.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Ulzar.tra~
 COMPILE ~Hendak/Scripts/HB#Ulzar.baf~
 
 
@@ -210,7 +214,7 @@ COPY ~Hendak/Creatures/HB#JD.cre~ ~override~
 SAY NAME1 @26
 SAY NAME2 @26
 COMPILE ~Hendak/Dialogues/HB#JD.d~ ~override~
-    USING ~Hendak/Translation/French/HB#JD.tra~
+    USING ~Hendak/Translation/%LANGUAGE%/HB#JD.tra~
 COMPILE ~Hendak/Scripts/HB#JD.baf~
 
 
@@ -220,19 +224,19 @@ COPY ~Hendak/Creatures/HB#Corma.cre~ ~override~
 SAY NAME1 @34
 SAY NAME2 @34
 COMPILE ~Hendak/Dialogues/HB#Corma.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Henda.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 
 COPY ~Hendak/Creatures/HB#Mot.cre~ ~override~
 SAY NAME1 @33
 SAY NAME2 @33
 COMPILE ~Hendak/Dialogues/HB#Mot.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Henda.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Henda.tra~
 
 COPY ~Hendak/Creatures/HB#Norma.cre~ ~override~
 SAY NAME1 @32
 SAY NAME2 @32
 COMPILE ~Hendak/Dialogues/HB#Norma.d~ ~override~
-        USING ~Hendak/Translation/French/HB#Norma.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#Norma.tra~
 
 
 
@@ -275,11 +279,11 @@ COMPILE ~Hendak/Scripts/HB#CtRec.baf~
 COMPILE ~Hendak/Scripts/HB#CtSer.baf~
 COMPILE ~Hendak/Scripts/HB#CtFui.baf~
 COMPILE ~Hendak/Scripts/HB#CtPir.baf~
-        USING ~Hendak/Translation/French/HB#LeSer.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#LeSer.tra~
 COMPILE ~Hendak/Scripts/HB#CtMor.baf~
 COMPILE ~Hendak/Scripts/HB#CtDan.baf~
 COMPILE ~Hendak/Scripts/HB#CtPri.baf~
-        USING ~Hendak/Translation/French/HB#JD.tra~
+        USING ~Hendak/Translation/%LANGUAGE%/HB#JD.tra~
 COMPILE ~Hendak/Scripts/HB#CtBa1.baf~
 COMPILE ~Hendak/Scripts/HB#CtBa3.baf~
 COMPILE ~Hendak/Scripts/HB#CtBa4.baf~
@@ -309,7 +313,7 @@ END
 
 ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 	COPY ~Hendak/PicturesEE~ ~override~
-	ADD_JOURNAL @14 @21 @900000 @418 @438 @453 @457 @465 @440 USING ~Hendak\Translation\French\HB#HENDA.TRA~
+	ADD_JOURNAL @14 @21 @900000 @418 @438 @453 @457 @465 @440 USING ~Hendak/Translation/%LANGUAGE%/HB#HENDA.TRA~
 END
 
 // BAMS
